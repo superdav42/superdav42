@@ -27,6 +27,7 @@
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
+
 _User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
 
 ## AI Model Usage (last 30 days)
@@ -35,8 +36,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Total** | **0** | **0** | **0** | **0** | **$0.00** | **$0.00** | **$0.00** |
 
-_0 total tokens processed. 0% cache hit rate. $0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus).
-Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
+_0 total tokens processed. 0% cache hit rate._
+
+_$0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus)._
+
+_Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -44,8 +48,11 @@ Model savings are modest because ~0% of tokens are cache reads, where price diff
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Total** | **0** | **0** | **0** | **0** | **$0.00** | **$0.00** | **$0.00** |
 
-_0 total tokens processed. 0% cache hit rate. $0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus).
-Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
+_0 total tokens processed. 0% cache hit rate._
+
+_$0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus)._
+
+_Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -143,5 +150,5 @@ Model savings are modest because ~0% of tokens are cache reads, where price diff
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-14 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-15 04:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

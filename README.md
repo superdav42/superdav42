@@ -21,10 +21,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 0.0h | 2.1h | 2.1h | 2.1h |
-| AI worker hours | 7.0h | 7.7h | 7.7h | 7.7h |
-| AI concurrency hours | 7.1h | 10.2h | 10.2h | 10.2h |
+| AI worker hours | 7.0h | 8.4h | 8.4h | 8.4h |
+| AI concurrency hours | 7.0h | 10.9h | 10.9h | 10.9h |
 | Interactive sessions | 4 | 13 | 13 | 13 |
-| Worker sessions | 41 | 45 | 45 | 45 |
+| Worker sessions | 55 | 63 | 63 | 63 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -46,15 +46,15 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 18,343 | 18K | 5.3M | 1,450.7M | $514.86 | $3,916.97 | $2,059.52 |
+| claude-sonnet-4-6 | 18,544 | 18K | 5.3M | 1,462.8M | $519.24 | $3,949.82 | $2,077.04 |
 | claude-opus-4-6 | 1,499 | 1K | 519K | 156.0M | $273.05 | $2,106.58 | $0.00 |
 | hf:moonshotai/Kimi-K2.5 | 191 | 26.3M | 40K | 0 | $79.68 | $0.00 | $318.77 |
 | hf:zai-org/GLM-4.7-Flash | 53 | 3.5M | 50K | 0 | $11.37 | $0.00 | $45.51 |
-| **Total** | **20,086** | **29.9M** | **5.9M** | **1,606.7M** | **$878.96** | **$6,023.56** | **$2,423.80** |
+| **Total** | **20,287** | **29.9M** | **5.9M** | **1,618.9M** | **$883.34** | **$6,056.40** | **$2,441.32** |
 
-_1,708.7M total tokens processed. 94.3% cache hit rate._
+_1,721.9M total tokens processed. 94.3% cache hit rate._
 
-_$8,447.36 total saved ($6,023.56 caching + $2,423.80 model routing vs all-Opus)._
+_$8,497.72 total saved ($6,056.40 caching + $2,441.32 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -154,5 +154,5 @@ _Model savings are modest because ~94.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-16 17:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-16 18:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

@@ -23,7 +23,7 @@
 | User AI session hours | 0.0h | 2.1h | 2.1h | 2.1h |
 | AI worker hours | 5.0h | 5.0h | 5.0h | 5.0h |
 | AI concurrency hours | 5.1h | 7.5h | 7.5h | 7.5h |
-| Interactive sessions | 4 | 12 | 12 | 12 |
+| Interactive sessions | 5 | 13 | 13 | 13 |
 | Worker sessions | 29 | 29 | 29 | 29 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -46,15 +46,15 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 13,416 | 13K | 4.0M | 1,087.4M | $386.35 | $2,936.01 | $1,545.45 |
+| claude-sonnet-4-6 | 13,420 | 13K | 4.0M | 1,087.4M | $386.35 | $2,936.01 | $1,545.45 |
 | claude-opus-4-6 | 1,499 | 1K | 519K | 156.0M | $273.05 | $2,106.58 | $0.00 |
-| hf:moonshotai/Kimi-K2.5 | 183 | 25.9M | 35K | 0 | $78.31 | $0.00 | $313.30 |
+| hf:moonshotai/Kimi-K2.5 | 191 | 26.3M | 40K | 0 | $79.68 | $0.00 | $318.77 |
 | hf:zai-org/GLM-4.7-Flash | 53 | 3.5M | 50K | 0 | $11.37 | $0.00 | $45.51 |
-| **Total** | **15,151** | **29.4M** | **4.6M** | **1,243.4M** | **$749.08** | **$5,042.59** | **$1,904.26** |
+| **Total** | **15,163** | **29.9M** | **4.6M** | **1,243.4M** | **$750.45** | **$5,042.59** | **$1,909.73** |
 
-_1,314.0M total tokens processed. 95% cache hit rate._
+_1,314.4M total tokens processed. 95% cache hit rate._
 
-_$6,946.85 total saved ($5,042.59 caching + $1,904.26 model routing vs all-Opus)._
+_$6,952.32 total saved ($5,042.59 caching + $1,909.73 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -154,5 +154,5 @@ _Model savings are modest because ~95% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-16 05:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-16 06:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

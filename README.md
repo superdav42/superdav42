@@ -21,10 +21,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 0.0h | 2.1h | 2.1h | 2.1h |
-| AI worker hours | 4.4h | 4.4h | 4.4h | 4.4h |
-| AI concurrency hours | 4.4h | 6.9h | 6.9h | 6.9h |
+| AI worker hours | 5.0h | 5.0h | 5.0h | 5.0h |
+| AI concurrency hours | 5.0h | 7.5h | 7.5h | 7.5h |
 | Interactive sessions | 1 | 9 | 9 | 9 |
-| Worker sessions | 26 | 26 | 26 | 26 |
+| Worker sessions | 29 | 29 | 29 | 29 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -46,15 +46,15 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 12,083 | 12K | 3.6M | 989.5M | $351.67 | $2,671.66 | $1,406.74 |
+| claude-sonnet-4-6 | 13,412 | 13K | 4.0M | 1,087.4M | $386.35 | $2,936.01 | $1,545.45 |
 | claude-opus-4-6 | 1,499 | 1K | 519K | 156.0M | $273.05 | $2,106.58 | $0.00 |
-| hf:moonshotai/Kimi-K2.5 | 154 | 23.5M | 29K | 0 | $71.01 | $0.00 | $284.07 |
+| hf:moonshotai/Kimi-K2.5 | 168 | 25.4M | 31K | 0 | $76.87 | $0.00 | $307.52 |
 | hf:zai-org/GLM-4.7-Flash | 53 | 3.5M | 50K | 0 | $11.37 | $0.00 | $45.51 |
-| **Total** | **13,789** | **27.0M** | **4.2M** | **1,145.5M** | **$707.10** | **$4,778.24** | **$1,736.33** |
+| **Total** | **15,132** | **29.0M** | **4.6M** | **1,243.4M** | **$747.64** | **$5,042.59** | **$1,898.48** |
 
-_1,210.9M total tokens processed. 95% cache hit rate._
+_1,313.5M total tokens processed. 95% cache hit rate._
 
-_$6,514.57 total saved ($4,778.24 caching + $1,736.33 model routing vs all-Opus)._
+_$6,941.07 total saved ($5,042.59 caching + $1,898.48 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -154,5 +154,5 @@ _Model savings are modest because ~95% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-16 03:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-16 04:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

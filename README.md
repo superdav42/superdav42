@@ -19,10 +19,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 24h | 24h | ~1,978h* |
-| User AI session hours | 1.4h | 1.8h | 1.8h | 1.8h |
+| Screen time (Linux) | 15h | 24h | 24h | ~2,679h* |
+| User AI session hours | 1.1h | 1.8h | 1.8h | 1.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 2.9h | 4.0h | 4.0h | 4.0h |
+| AI concurrency hours | 2.3h | 4.0h | 4.0h | 4.0h |
 | Interactive sessions | 6 | 6 | 6 | 6 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -52,12 +52,12 @@ _Model savings are modest because ~96.7% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 1,011 | 1K | 334K | 152.7M | $254.17 | $2,061.59 | $0.00 |
-| claude-sonnet-4-6 | 2,979 | 3K | 1.2M | 283.4M | $103.79 | $765.43 | $415.25 |
+| claude-sonnet-4-6 | 2,983 | 3K | 1.2M | 283.4M | $103.79 | $765.43 | $415.25 |
 | hf:moonshotai/Kimi-K2.5 | 293 | 3.9M | 81K | 27.0M | $21.16 | $73.07 | $84.73 |
 | hf:zai-org/GLM-4.7-Flash | 129 | 254K | 82K | 10.0M | $5.01 | $27.26 | $20.12 |
 | zai-org/GLM-5 | 4 | 90K | 344 | 31K | $0.27 | $0.08 | $1.14 |
 | claude-opus-4-5 | 9 | 4 | 195 | 37K | $0.06 | $0.51 | $0.00 |
-| **Total** | **4,425** | **4.2M** | **1.7M** | **473.4M** | **$384.46** | **$2,927.95** | **$521.24** |
+| **Total** | **4,429** | **4.2M** | **1.7M** | **473.4M** | **$384.46** | **$2,927.95** | **$521.24** |
 
 _490.2M total tokens processed. 96.6% cache hit rate._
 
@@ -161,5 +161,5 @@ _Model savings are modest because ~96.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-24 05:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-24 06:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

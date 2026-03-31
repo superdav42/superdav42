@@ -19,7 +19,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 3h | 24h | 24h | ~3,497h* |
+| Screen time (Linux) | 4h | 24h | 24h | ~3,497h* |
 | User AI session hours | 0.0h | 0.0h | 1.8h | 1.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 4.0h | 4.0h |
@@ -35,19 +35,19 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 4,128 | 78.2M | 1.3M | 516.6M | $2,471.92 | $6,975.33 | $0.00 |
-| claude-sonnet-4-6 | 48,606 | 5.1M | 15.0M | 4,208.7M | $1,917.75 | $11,363.54 | $6,012.83 |
+| claude-sonnet-4-6 | 48,766 | 5.1M | 15.0M | 4,219.2M | $1,922.21 | $11,391.89 | $6,028.14 |
 | hf:moonshotai/Kimi-K2.5 | 627 | 6.1M | 203K | 41.8M | $33.98 | $112.89 | $135.91 |
 | claude-opus-4 | 114 | 105 | 35K | 7.7M | $17.96 | $104.54 | $0.00 |
 | hf:zai-org/GLM-4.7-Flash | 383 | 692K | 51K | 24.3M | $10.15 | $65.63 | $40.59 |
 | claude-sonnet-4-5 | 243 | 455 | 103K | 19.0M | $9.80 | $51.45 | $29.10 |
-| big-pickle | 80 | 1.8M | 20K | 5.0M | $9.05 | $0.00 | $36.18 |
+| big-pickle | 109 | 1.9M | 24K | 5.5M | $9.73 | $0.00 | $39.59 |
 | claude-opus-4-5 | 14 | 6 | 1K | 128K | $1.47 | $1.73 | $0.00 |
 | claude-haiku-4-5 | 2 | 45K | 462 | 21K | $0.06 | $0.02 | $0.71 |
-| **Total** | **54,197** | **92.0M** | **16.7M** | **4,823.4M** | **$4,472.14** | **$18,675.13** | **$6,255.32** |
+| **Total** | **54,386** | **92.2M** | **16.7M** | **4,834.5M** | **$4,477.28** | **$18,703.48** | **$6,274.03** |
 
-_5,066.9M total tokens processed. 95.2% cache hit rate._
+_5,078.4M total tokens processed. 95.2% cache hit rate._
 
-_$24,930.45 total saved ($18,675.13 caching + $6,255.32 model routing vs all-Opus)._
+_$24,977.52 total saved ($18,703.48 caching + $6,274.03 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
 
@@ -56,18 +56,18 @@ _Model savings are modest because ~95.2% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 4,166 | 78.2M | 1.3M | 518.6M | $2,049.87 | $7,001.21 | $0.00 |
-| claude-sonnet-4-6 | 50,045 | 5.1M | 15.3M | 4,310.8M | $1,538.70 | $11,639.19 | $6,154.85 |
+| claude-sonnet-4-6 | 50,207 | 5.1M | 15.3M | 4,321.3M | $1,542.52 | $11,667.54 | $6,170.16 |
 | hf:moonshotai/Kimi-K2.5 | 728 | 7.2M | 226K | 52.1M | $40.71 | $140.77 | $162.88 |
 | hf:zai-org/GLM-4.7-Flash | 500 | 895K | 131K | 33.9M | $14.82 | $91.58 | $59.34 |
 | claude-opus-4 | 117 | 106 | 35K | 7.8M | $14.47 | $106.25 | $0.00 |
 | claude-sonnet-4-5 | 246 | 461 | 107K | 19.3M | $7.40 | $52.13 | $29.65 |
 | claude-opus-4-5 | 14 | 6 | 1K | 128K | $0.28 | $1.73 | $0.00 |
 | zai-org/GLM-5 | 4 | 90K | 344 | 31K | $0.27 | $0.08 | $1.14 |
-| **Total** | **55,820** | **91.6M** | **17.1M** | **4,942.8M** | **$3,666.52** | **$19,032.96** | **$6,407.86** |
+| **Total** | **55,982** | **91.6M** | **17.1M** | **4,953.3M** | **$3,670.34** | **$19,061.31** | **$6,423.17** |
 
-_5,196.3M total tokens processed. 95.2% cache hit rate._
+_5,207.8M total tokens processed. 95.2% cache hit rate._
 
-_$25,440.82 total saved ($19,032.96 caching + $6,407.86 model routing vs all-Opus)._
+_$25,484.49 total saved ($19,061.31 caching + $6,423.17 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -167,5 +167,5 @@ _Model savings are modest because ~95.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-31 09:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-31 10:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

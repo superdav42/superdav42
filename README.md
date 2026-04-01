@@ -19,7 +19,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 22h | 24h | 24h | ~3,497h* |
+| Screen time (Linux) | 23h | 24h | 24h | ~3,497h* |
 | User AI session hours | 0.0h | 0.0h | 1.8h | 1.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 4.0h | 4.0h |
@@ -35,7 +35,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 4,906 | 135.7M | 1.5M | 580.9M | $3,502.17 | $7,842.67 | $0.00 |
-| claude-sonnet-4-6 | 51,315 | 5.1M | 15.7M | 4,389.8M | $2,000.73 | $11,852.70 | $6,277.57 |
+| claude-sonnet-4-6 | 51,436 | 5.1M | 15.8M | 4,397.3M | $2,005.31 | $11,872.77 | $6,288.58 |
 | hf:moonshotai/Kimi-K2.5 | 627 | 6.1M | 203K | 41.8M | $33.98 | $112.89 | $135.91 |
 | claude-opus-4 | 114 | 105 | 35K | 7.7M | $17.96 | $104.54 | $0.00 |
 | hf:zai-org/GLM-4.7-Flash | 383 | 692K | 51K | 24.3M | $10.15 | $65.63 | $40.59 |
@@ -44,11 +44,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | mimo-v2-pro-free | 69 | 123K | 16K | 5.2M | $2.25 | $14.11 | $8.75 |
 | claude-opus-4-5 | 14 | 6 | 1K | 128K | $1.47 | $1.73 | $0.00 |
 | claude-haiku-4-5 | 2 | 45K | 462 | 21K | $0.06 | $0.02 | $0.71 |
-| **Total** | **57,782** | **149.8M** | **17.7M** | **5,074.7M** | **$5,588.30** | **$20,045.74** | **$6,532.21** |
+| **Total** | **57,903** | **149.8M** | **17.7M** | **5,082.1M** | **$5,592.88** | **$20,065.80** | **$6,543.22** |
 
-_5,384.3M total tokens processed. 94.2% cache hit rate._
+_5,392.3M total tokens processed. 94.2% cache hit rate._
 
-_$26,577.96 total saved ($20,045.74 caching + $6,532.21 model routing vs all-Opus)._
+_$26,609.02 total saved ($20,065.80 caching + $6,543.22 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -57,7 +57,7 @@ _Model savings are modest because ~94.2% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 4,965 | 135.7M | 1.5M | 583.7M | $3,027.17 | $7,880.67 | $0.00 |
-| claude-sonnet-4-6 | 52,804 | 5.1M | 16.1M | 4,492.6M | $1,605.13 | $12,130.28 | $6,420.60 |
+| claude-sonnet-4-6 | 52,914 | 5.1M | 16.1M | 4,499.6M | $1,607.71 | $12,149.14 | $6,430.90 |
 | hf:moonshotai/Kimi-K2.5 | 728 | 7.2M | 226K | 52.1M | $40.71 | $140.77 | $162.88 |
 | hf:zai-org/GLM-4.7-Flash | 500 | 895K | 131K | 33.9M | $14.82 | $91.58 | $59.34 |
 | claude-opus-4 | 117 | 106 | 35K | 7.8M | $14.47 | $106.25 | $0.00 |
@@ -65,11 +65,11 @@ _Model savings are modest because ~94.2% of tokens are cache reads, where price 
 | mimo-v2-pro-free | 69 | 123K | 16K | 5.2M | $2.17 | $14.11 | $8.75 |
 | claude-opus-4-5 | 14 | 6 | 1K | 128K | $0.28 | $1.73 | $0.00 |
 | zai-org/GLM-5 | 4 | 90K | 344 | 31K | $0.27 | $0.08 | $1.14 |
-| **Total** | **59,447** | **149.2M** | **18.1M** | **5,195.0M** | **$4,712.42** | **$20,417.62** | **$6,682.36** |
+| **Total** | **59,557** | **149.2M** | **18.2M** | **5,202.0M** | **$4,715.00** | **$20,436.48** | **$6,692.65** |
 
-_5,515.5M total tokens processed. 94.3% cache hit rate._
+_5,523.0M total tokens processed. 94.3% cache hit rate._
 
-_$27,099.98 total saved ($20,417.62 caching + $6,682.36 model routing vs all-Opus)._
+_$27,129.13 total saved ($20,436.48 caching + $6,692.65 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -169,5 +169,5 @@ _Model savings are modest because ~94.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-01 04:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-01 05:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

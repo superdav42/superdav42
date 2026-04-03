@@ -34,8 +34,8 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 6,309 | 135.7M | 2.0M | 725.6M | $3,923.48 | $9,796.90 | $0.00 |
-| claude-sonnet-4-6 | 58,973 | 5.2M | 17.7M | 4,964.9M | $2,264.12 | $13,405.37 | $7,087.96 |
+| claude-opus-4-6 | 6,533 | 135.7M | 2.0M | 762.9M | $4,004.95 | $10,299.62 | $0.00 |
+| claude-sonnet-4-6 | 59,015 | 5.2M | 17.8M | 4,966.7M | $2,265.27 | $13,410.14 | $7,091.10 |
 | hf:moonshotai/Kimi-K2.5 | 627 | 6.1M | 203K | 41.8M | $33.98 | $112.89 | $135.91 |
 | claude-opus-4 | 114 | 105 | 35K | 7.7M | $17.96 | $104.54 | $0.00 |
 | hf:zai-org/GLM-4.7-Flash | 383 | 692K | 51K | 24.3M | $10.15 | $65.63 | $40.59 |
@@ -45,11 +45,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | mimo-v2-pro-free | 69 | 123K | 16K | 5.2M | $2.25 | $14.11 | $8.75 |
 | claude-haiku-4-5 | 313 | 599 | 55K | 14.6M | $1.71 | $10.54 | $24.76 |
 | claude-haiku-4-5 | 2 | 45K | 462 | 21K | $0.06 | $0.02 | $0.71 |
-| **Total** | **67,162** | **149.8M** | **20.3M** | **5,809.3M** | **$6,275.49** | **$23,564.82** | **$7,367.36** |
+| **Total** | **67,428** | **149.8M** | **20.3M** | **5,848.3M** | **$6,358.11** | **$24,072.32** | **$7,370.49** |
 
-_6,147.0M total tokens processed. 94.5% cache hit rate._
+_6,187.5M total tokens processed. 94.5% cache hit rate._
 
-_$30,932.18 total saved ($23,564.82 caching + $7,367.36 model routing vs all-Opus)._
+_$31,442.81 total saved ($24,072.32 caching + $7,370.49 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
 
@@ -57,8 +57,8 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 6,386 | 135.7M | 2.0M | 729.7M | $3,282.69 | $9,852.07 | $0.00 |
-| claude-sonnet-4-6 | 55,994 | 5.1M | 16.9M | 4,819.2M | $1,715.44 | $13,011.89 | $6,861.83 |
+| claude-opus-4-6 | 6,612 | 135.7M | 2.0M | 767.0M | $3,343.24 | $10,354.79 | $0.00 |
+| claude-sonnet-4-6 | 56,038 | 5.1M | 16.9M | 4,821.0M | $1,716.27 | $13,016.93 | $6,865.15 |
 | hf:moonshotai/Kimi-K2.5 | 728 | 7.2M | 226K | 52.1M | $40.71 | $140.77 | $162.88 |
 | hf:zai-org/GLM-4.7-Flash | 500 | 895K | 131K | 33.9M | $14.82 | $91.58 | $59.34 |
 | claude-opus-4 | 117 | 106 | 35K | 7.8M | $14.47 | $106.25 | $0.00 |
@@ -66,13 +66,13 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 | mimo-v2-pro-free | 69 | 123K | 16K | 5.2M | $2.17 | $14.11 | $8.75 |
 | claude-opus-4-5 | 20 | 14 | 2K | 249K | $0.58 | $3.37 | $0.00 |
 | zai-org/GLM-5 | 4 | 90K | 344 | 31K | $0.27 | $0.08 | $1.14 |
-| **Total** | **64,064** | **149.2M** | **19.4M** | **5,667.7M** | **$5,078.55** | **$23,272.27** | **$7,123.59** |
+| **Total** | **64,334** | **149.2M** | **19.5M** | **5,706.8M** | **$5,139.93** | **$23,780.03** | **$7,126.91** |
 
-_6,007.1M total tokens processed. 94.4% cache hit rate._
+_6,047.8M total tokens processed. 94.5% cache hit rate._
 
-_$30,395.86 total saved ($23,272.27 caching + $7,123.59 model routing vs all-Opus)._
+_$30,906.94 total saved ($23,780.03 caching + $7,126.91 model routing vs all-Opus)._
 
-_Model savings are modest because ~94.4% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -170,5 +170,5 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-03 17:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-03 18:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

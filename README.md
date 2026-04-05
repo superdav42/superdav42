@@ -19,7 +19,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 19.3h | 24h | 24h | ~3,559h* |
+| Screen time (Linux) | 20.3h | 24h | 24h | ~3,559h* |
 | User AI session hours | 0.0h | 0.0h | 1.8h | 1.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 4.0h | 4.0h |
@@ -58,7 +58,7 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 7,896 | 135.7M | 2.4M | 900.6M | $3,573.17 | $12,158.50 | $0.00 |
-| claude-sonnet-4-6 | 60,543 | 5.2M | 18.2M | 5,156.9M | $1,836.45 | $13,923.85 | $7,345.85 |
+| claude-sonnet-4-6 | 60,547 | 5.2M | 18.2M | 5,156.9M | $1,836.45 | $13,923.85 | $7,345.85 |
 | hf:moonshotai/Kimi-K2.5 | 761 | 7.3M | 231K | 53.0M | $41.50 | $143.31 | $166.06 |
 | hf:zai-org/GLM-4.7-Flash | 500 | 895K | 131K | 33.9M | $14.82 | $91.58 | $59.34 |
 | claude-opus-4 | 117 | 106 | 35K | 7.8M | $14.47 | $106.25 | $0.00 |
@@ -66,7 +66,7 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 | mimo-v2-pro-free | 69 | 123K | 16K | 5.2M | $2.17 | $14.11 | $8.75 |
 | claude-opus-4-5 | 20 | 14 | 2K | 249K | $0.58 | $3.37 | $0.00 |
 | zai-org/GLM-5 | 4 | 90K | 344 | 31K | $0.27 | $0.08 | $1.14 |
-| **Total** | **70,156** | **149.3M** | **21.2M** | **6,177.2M** | **$5,490.83** | **$26,493.19** | **$7,610.78** |
+| **Total** | **70,160** | **149.3M** | **21.2M** | **6,177.2M** | **$5,490.83** | **$26,493.19** | **$7,610.78** |
 
 _6,558.3M total tokens processed. 94.3% cache hit rate._
 
@@ -170,5 +170,5 @@ _Model savings are modest because ~94.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-05 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-05 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

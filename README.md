@@ -19,12 +19,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 9.3h | 78.2h | 78.2h | ~4,022h* |
+| Screen time (Linux) | 10.3h | 79.2h | 79.2h | ~4,022h* |
 | User AI session hours | 5.3h | 22.7h | 22.7h | 22.7h |
-| AI worker hours | 9.9h | 37.4h | 37.4h | 37.4h |
-| AI concurrency hours | 24.3h | 91.9h | 91.9h | 91.9h |
-| Interactive sessions | 45 | 107 | 107 | 107 |
-| Worker sessions | 42 | 121 | 121 | 121 |
+| AI worker hours | 10.4h | 38.2h | 38.2h | 38.2h |
+| AI concurrency hours | 23.5h | 92.7h | 92.7h | 92.7h |
+| Interactive sessions | 43 | 107 | 107 | 107 |
+| Worker sessions | 42 | 123 | 123 | 123 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -35,7 +35,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 22,873 | 135.7M | 9.2M | 2,811.2M | $9,558.75 | $37,952.34 | $0.00 |
-| claude-sonnet-4-6 | 101,331 | 5.2M | 32.8M | 8,528.6M | $3,906.66 | $23,027.40 | $12,266.21 |
+| claude-sonnet-4-6 | 101,419 | 5.2M | 32.8M | 8,534.1M | $3,909.33 | $23,042.19 | $12,274.44 |
 | claude-opus-4-7 | 634 | 770 | 289K | 59.3M | $155.27 | $801.09 | $0.00 |
 | hf:moonshotai/Kimi-K2.5 | 749 | 6.8M | 230K | 44.8M | $37.37 | $121.08 | $149.47 |
 | claude-opus-4-5 | 161 | 176 | 26K | 10.5M | $23.88 | $141.78 | $0.00 |
@@ -50,11 +50,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | gemma4:e4b | 9 | 206K | 3K | 0 | $0.67 | $0.00 | $2.69 |
 | claude-haiku-4-5 | 13 | 45K | 4K | 324K | $0.23 | $0.23 | $1.44 |
 | claude-sonnet-4 | 2 | 4 | 16 | 24K | $0.10 | $0.07 | $0.03 |
-| **Total** | **127,845** | **154.7M** | **43.1M** | **11,585.9M** | **$13,765.14** | **$62,404.06** | **$12,693.44** |
+| **Total** | **127,933** | **154.7M** | **43.1M** | **11,591.4M** | **$13,767.81** | **$62,418.85** | **$12,701.67** |
 
-_12,152.0M total tokens processed. 95.3% cache hit rate._
+_12,157.7M total tokens processed. 95.3% cache hit rate._
 
-_$75,097.50 total saved ($62,404.06 caching + $12,693.44 model routing vs all-Opus)._
+_$75,120.53 total saved ($62,418.85 caching + $12,701.67 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -63,13 +63,13 @@ _Model savings are modest because ~95.3% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 3,612 | 4K | 1.4M | 463.5M | $801.88 | $6,258.06 | $0.00 |
-| claude-sonnet-4-6 | 11,044 | 11K | 4.6M | 1,096.5M | $398.98 | $2,960.60 | $1,596.00 |
+| claude-sonnet-4-6 | 11,166 | 11K | 4.7M | 1,104.6M | $402.14 | $2,982.66 | $1,608.63 |
 | claude-opus-4-7 | 630 | 770 | 289K | 59.3M | $110.70 | $801.09 | $0.00 |
-| **Total** | **15,286** | **16K** | **6.3M** | **1,619.4M** | **$1,311.56** | **$10,019.76** | **$1,596.00** |
+| **Total** | **15,408** | **16K** | **6.4M** | **1,627.5M** | **$1,314.72** | **$10,041.81** | **$1,608.63** |
 
-_1,678.1M total tokens processed. 97% cache hit rate._
+_1,686.4M total tokens processed. 97% cache hit rate._
 
-_$11,615.75 total saved ($10,019.76 caching + $1,596.00 model routing vs all-Opus)._
+_$11,650.44 total saved ($10,041.81 caching + $1,608.63 model routing vs all-Opus)._
 
 _Model savings are modest because ~97% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -169,5 +169,5 @@ _Model savings are modest because ~97% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-19 07:31 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-19 08:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

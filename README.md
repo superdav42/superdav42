@@ -21,9 +21,9 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 7.2h | 90.9h | 175.9h | ~4,088h* |
 | User AI session hours | 2.1h | 33.8h | 56.4h | 56.4h |
-| AI worker hours | 3.6h | 20.2h | 58.9h | 58.9h |
-| AI concurrency hours | 19.5h | 111.3h | 204.6h | 204.6h |
-| Interactive sessions | 100 | 331 | 432 | 432 |
+| AI worker hours | 3.6h | 19.8h | 58.9h | 58.9h |
+| AI concurrency hours | 19.8h | 111.4h | 205.1h | 205.1h |
+| Interactive sessions | 104 | 336 | 437 | 437 |
 | Worker sessions | 12 | 75 | 200 | 200 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -35,7 +35,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 22,652 | 135.7M | 9.5M | 2,742.7M | $9,466.22 | $37,026.68 | $0.00 |
-| claude-sonnet-4-6 | 83,483 | 5.2M | 29.2M | 6,953.7M | $3,342.65 | $18,774.99 | $10,161.83 |
+| claude-sonnet-4-6 | 83,324 | 5.2M | 29.2M | 6,946.7M | $3,340.25 | $18,756.13 | $10,153.24 |
 | claude-opus-4-7 | 637 | 770 | 289K | 59.3M | $155.27 | $801.09 | $0.00 |
 | z-ai/glm-5.1 | 533 | 39.0M | 118K | 0 | $118.86 | $0.00 | $475.42 |
 | minimax-m2.5-free | 1,909 | 8.2M | 401K | 147.5M | $84.15 | $0.00 | $375.31 |
@@ -53,11 +53,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | hf:zai-org/GLM-4.7-Flash | 28 | 152K | 6K | 1.4M | $1.00 | $4.01 | $3.99 |
 | claude-haiku-4-5 | 13 | 45K | 4K | 324K | $0.23 | $0.23 | $1.44 |
 | claude-sonnet-4 | 2 | 4 | 16 | 24K | $0.10 | $0.07 | $0.03 |
-| **Total** | **111,933** | **201.7M** | **40.2M** | **10,057.1M** | **$13,284.97** | **$56,999.21** | **$11,417.97** |
+| **Total** | **111,774** | **201.7M** | **40.2M** | **10,050.1M** | **$13,282.57** | **$56,980.35** | **$11,409.39** |
 
-_10,659.5M total tokens processed. 94.3% cache hit rate._
+_10,652.4M total tokens processed. 94.3% cache hit rate._
 
-_$68,417.18 total saved ($56,999.21 caching + $11,417.97 model routing vs all-Opus)._
+_$68,389.73 total saved ($56,980.35 caching + $11,409.39 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.3% of tokens are cache reads, where price differences between models are small._
 
@@ -66,17 +66,17 @@ _Model savings are modest because ~94.3% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 6,287 | 7K | 2.5M | 802.0M | $1,393.75 | $10,827.82 | $0.00 |
-| claude-sonnet-4-6 | 22,912 | 23K | 9.8M | 2,080.6M | $772.39 | $5,617.72 | $3,089.61 |
+| claude-sonnet-4-6 | 23,031 | 23K | 9.9M | 2,088.6M | $775.82 | $5,639.47 | $3,103.33 |
 | z-ai/glm-5.1 | 553 | 39.3M | 121K | 0 | $119.89 | $0.00 | $479.63 |
 | claude-opus-4-7 | 632 | 770 | 289K | 59.3M | $110.70 | $801.09 | $0.00 |
 | hf:zai-org/GLM-5.1 | 109 | 967K | 14K | 4.8M | $4.56 | $13.06 | $18.28 |
 | gemma4:e4b | 10 | 353K | 5K | 0 | $1.14 | $0.00 | $4.59 |
 | hf:zai-org/GLM-4.7-Flash | 28 | 152K | 6K | 1.4M | $0.98 | $4.01 | $3.99 |
-| **Total** | **30,531** | **40.8M** | **12.8M** | **2,948.3M** | **$2,403.41** | **$17,263.70** | **$3,596.08** |
+| **Total** | **30,650** | **40.8M** | **12.9M** | **2,956.4M** | **$2,406.84** | **$17,285.46** | **$3,609.81** |
 
-_3,290.4M total tokens processed. 94.9% cache hit rate._
+_3,298.9M total tokens processed. 94.9% cache hit rate._
 
-_$20,859.79 total saved ($17,263.70 caching + $3,596.08 model routing vs all-Opus)._
+_$20,895.27 total saved ($17,285.46 caching + $3,609.81 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -176,5 +176,5 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-26 13:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-26 14:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

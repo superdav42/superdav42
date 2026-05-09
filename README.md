@@ -36,7 +36,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 21,444 | 24K | 8.2M | 2,929.2M | $7,388.20 | $39,544.32 | $0.00 |
 | claude-opus-4-7 | 8,780 | 11K | 4.7M | 1,021.5M | $2,695.21 | $13,791.38 | $0.00 |
-| claude-sonnet-4-6 | 59,997 | 62K | 25.1M | 5,356.8M | $2,597.06 | $14,463.50 | $7,940.67 |
+| claude-sonnet-4-6 | 59,932 | 62K | 25.1M | 5,352.7M | $2,595.32 | $14,452.32 | $7,934.89 |
 | z-ai/glm-5.1 | 650 | 43.5M | 137K | 0 | $132.56 | $0.00 | $530.23 |
 | minimax-m2.5-free | 3,068 | 10.3M | 665K | 213.5M | $114.90 | $0.00 | $525.29 |
 | nemotron-3-super-free | 490 | 37.2M | 32K | 0 | $114.32 | $0.00 | $448.93 |
@@ -51,11 +51,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | hf:moonshotai/Kimi-K2.5 | 19 | 167K | 7K | 562K | $0.78 | $1.52 | $3.10 |
 | moonshotai/kimi-k2.6 | 3 | 121K | 128 | 0 | $0.37 | $0.00 | $1.83 |
 | claude-haiku-4-5 | 11 | 41 | 4K | 302K | $0.16 | $0.22 | $0.73 |
-| **Total** | **98,188** | **112.0M** | **39.9M** | **9,761.5M** | **$13,181.35** | **$68,358.29** | **$10,064.38** |
+| **Total** | **98,123** | **112.0M** | **39.8M** | **9,757.3M** | **$13,179.61** | **$68,347.10** | **$10,058.60** |
 
-_10,249.7M total tokens processed. 95.2% cache hit rate._
+_10,245.4M total tokens processed. 95.2% cache hit rate._
 
-_$78,422.67 total saved ($68,358.29 caching + $10,064.38 model routing vs all-Opus)._
+_$78,405.71 total saved ($68,347.10 caching + $10,058.60 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
 
@@ -176,5 +176,5 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-09 10:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-09 11:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

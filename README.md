@@ -19,11 +19,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 3.6h | 67.1h | 336.1h | ~4,668h* |
-| User AI session hours | 1.0h | 52.7h | 90.2h | 90.2h |
+| Screen time (Linux) | 4.6h | 68.1h | 337.1h | ~4,668h* |
+| User AI session hours | 1.1h | 52.8h | 89.8h | 89.8h |
 | AI worker hours | 2.9h | 14.9h | 22.7h | 22.7h |
-| AI concurrency hours | 5.1h | 109.4h | 203.9h | 203.9h |
-| Interactive sessions | 9 | 114 | 354 | 354 |
+| AI concurrency hours | 5.2h | 109.2h | 201.7h | 201.7h |
+| Interactive sessions | 8 | 111 | 352 | 352 |
 | Worker sessions | 15 | 104 | 159 | 159 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -64,18 +64,18 @@ _Model savings are modest because ~95.2% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 13,632 | 15K | 5.3M | 2,077.0M | $3,514.35 | $28,039.87 | $0.00 |
 | claude-opus-4-7 | 11,067 | 13K | 5.8M | 1,266.5M | $2,338.20 | $17,098.51 | $0.00 |
-| claude-sonnet-4-6 | 38,772 | 40K | 17.5M | 3,632.1M | $1,353.64 | $9,806.71 | $5,414.61 |
+| claude-sonnet-4-6 | 38,808 | 40K | 17.6M | 3,634.1M | $1,354.50 | $9,812.18 | $5,418.05 |
 | z-ai/glm-5.1 | 672 | 43.8M | 139K | 0 | $133.60 | $0.00 | $534.43 |
 | nemotron-3-super-free | 498 | 37.2M | 32K | 0 | $112.22 | $0.00 | $448.93 |
 | gpt-5.5 | 2,604 | 11.0M | 451K | 167.5M | $90.31 | $452.38 | $361.30 |
 | hf:zai-org/GLM-5.1 | 109 | 967K | 14K | 4.8M | $4.56 | $13.06 | $18.28 |
 | gemma4:e4b | 24 | 613K | 9K | 0 | $1.98 | $0.00 | $7.93 |
 | hf:zai-org/GLM-4.7-Flash | 28 | 152K | 6K | 1.4M | $0.98 | $4.01 | $3.99 |
-| **Total** | **67,406** | **93.9M** | **29.4M** | **7,149.5M** | **$7,549.84** | **$55,414.54** | **$6,789.46** |
+| **Total** | **67,442** | **93.9M** | **29.4M** | **7,151.5M** | **$7,550.70** | **$55,420.01** | **$6,792.90** |
 
-_7,787.0M total tokens processed. 95% cache hit rate._
+_7,789.1M total tokens processed. 95% cache hit rate._
 
-_$62,204.00 total saved ($55,414.54 caching + $6,789.46 model routing vs all-Opus)._
+_$62,212.91 total saved ($55,420.01 caching + $6,792.90 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -175,5 +175,5 @@ _Model savings are modest because ~95% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-12 00:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-12 01:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

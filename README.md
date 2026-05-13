@@ -19,12 +19,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 11.3h | 56.9h | 334.6h | ~4,614h* |
+| Screen time (Linux) | 12h | 57.6h | 335.3h | ~4,614h* |
 | User AI session hours | 6.9h | 50.2h | 90.6h | 90.6h |
-| AI worker hours | 8.4h | 16.7h | 30.4h | 30.4h |
-| AI concurrency hours | 21.0h | 105.5h | 208.5h | 208.5h |
-| Interactive sessions | 11 | 102 | 299 | 299 |
-| Worker sessions | 50 | 96 | 207 | 207 |
+| AI worker hours | 9.6h | 17.3h | 31.6h | 31.6h |
+| AI concurrency hours | 22.2h | 106.0h | 209.5h | 209.5h |
+| Interactive sessions | 11 | 102 | 296 | 296 |
+| Worker sessions | 53 | 94 | 210 | 210 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -38,7 +38,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | claude-opus-4-7 | 9,249 | 11K | 4.9M | 1,079.8M | $2,827.11 | $14,578.09 | $0.00 |
 | claude-sonnet-4-6 | 51,558 | 53K | 22.8M | 4,847.1M | $2,361.46 | $13,087.28 | $7,189.38 |
 | z-ai/glm-5.1 | 650 | 43.5M | 137K | 0 | $132.56 | $0.00 | $530.23 |
-| gpt-5.5 | 4,254 | 17.1M | 794K | 244.8M | $120.13 | $661.03 | $547.27 |
+| gpt-5.5 | 4,323 | 17.8M | 807K | 249.0M | $123.10 | $672.49 | $561.11 |
 | minimax-m2.5-free | 3,068 | 10.3M | 665K | 213.5M | $114.90 | $0.00 | $525.29 |
 | nemotron-3-super-free | 490 | 37.2M | 32K | 0 | $114.32 | $0.00 | $448.93 |
 | hf:zai-org/GLM-5.1 | 551 | 3.7M | 148K | 39.0M | $25.07 | $105.55 | $100.30 |
@@ -50,11 +50,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | hf:moonshotai/Kimi-K2.5 | 19 | 167K | 7K | 562K | $0.78 | $1.52 | $3.10 |
 | moonshotai/kimi-k2.6 | 3 | 121K | 128 | 0 | $0.37 | $0.00 | $1.83 |
 | claude-haiku-4-5 | 11 | 41 | 4K | 302K | $0.16 | $0.22 | $0.73 |
-| **Total** | **87,722** | **117.5M** | **36.8M** | **8,915.5M** | **$11,823.24** | **$61,590.19** | **$9,493.23** |
+| **Total** | **87,791** | **118.1M** | **36.8M** | **8,919.8M** | **$11,826.21** | **$61,601.65** | **$9,507.07** |
 
-_9,368.9M total tokens processed. 95.2% cache hit rate._
+_9,373.8M total tokens processed. 95.2% cache hit rate._
 
-_$71,083.42 total saved ($61,590.19 caching + $9,493.23 model routing vs all-Opus)._
+_$71,108.72 total saved ($61,601.65 caching + $9,507.07 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
 
@@ -66,16 +66,16 @@ _Model savings are modest because ~95.2% of tokens are cache reads, where price 
 | claude-opus-4-7 | 13,113 | 16K | 6.8M | 1,511.1M | $2,783.94 | $20,400.45 | $0.00 |
 | claude-sonnet-4-6 | 38,976 | 40K | 17.6M | 3,640.7M | $1,357.46 | $9,830.03 | $5,429.90 |
 | z-ai/glm-5.1 | 672 | 43.8M | 139K | 0 | $133.60 | $0.00 | $534.43 |
-| gpt-5.5 | 3,979 | 14.8M | 715K | 228.8M | $123.99 | $618.00 | $495.99 |
+| gpt-5.5 | 4,082 | 15.8M | 736K | 234.8M | $129.08 | $634.14 | $516.35 |
 | nemotron-3-super-free | 498 | 37.2M | 32K | 0 | $112.22 | $0.00 | $448.93 |
 | hf:zai-org/GLM-5.1 | 109 | 967K | 14K | 4.8M | $4.56 | $13.06 | $18.28 |
 | gemma4:e4b | 24 | 613K | 9K | 0 | $1.98 | $0.00 | $7.93 |
 | hf:zai-org/GLM-4.7-Flash | 28 | 152K | 6K | 1.4M | $0.98 | $4.01 | $3.99 |
-| **Total** | **71,031** | **97.7M** | **30.8M** | **7,464.1M** | **$8,033.08** | **$58,905.42** | **$6,939.45** |
+| **Total** | **71,134** | **98.7M** | **30.8M** | **7,470.1M** | **$8,038.17** | **$58,921.57** | **$6,959.81** |
 
-_8,115.8M total tokens processed. 95% cache hit rate._
+_8,122.8M total tokens processed. 95% cache hit rate._
 
-_$65,844.87 total saved ($58,905.42 caching + $6,939.45 model routing vs all-Opus)._
+_$65,881.37 total saved ($58,921.57 caching + $6,959.81 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -175,5 +175,5 @@ _Model savings are modest because ~95% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-13 09:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-13 10:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

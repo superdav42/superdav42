@@ -36,7 +36,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 13,907 | 15K | 5.4M | 2,110.5M | $5,060.28 | $28,492.40 | $0.00 |
 | claude-opus-4-7 | 9,509 | 12K | 5.1M | 1,103.7M | $2,890.29 | $14,900.04 | $0.00 |
-| claude-sonnet-4-6 | 47,590 | 49K | 21.4M | 4,395.3M | $2,179.13 | $11,867.33 | $6,563.61 |
+| claude-sonnet-4-6 | 47,380 | 49K | 21.4M | 4,383.6M | $2,173.88 | $11,835.72 | $6,546.75 |
 | gpt-5.5 | 5,418 | 21.9M | 1.0M | 304.7M | $151.72 | $822.79 | $690.55 |
 | z-ai/glm-5.1 | 650 | 43.5M | 137K | 0 | $132.56 | $0.00 | $530.23 |
 | minimax-m2.5-free | 3,068 | 10.3M | 665K | 213.5M | $114.90 | $0.00 | $525.29 |
@@ -50,11 +50,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | hf:zai-org/GLM-4.7-Flash | 28 | 152K | 6K | 1.4M | $1.00 | $4.01 | $3.99 |
 | moonshotai/kimi-k2.6 | 3 | 121K | 128 | 0 | $0.37 | $0.00 | $1.83 |
 | claude-haiku-4-5 | 9 | 38 | 905 | 270K | $0.10 | $0.19 | $0.45 |
-| **Total** | **83,720** | **119.3M** | **34.7M** | **8,306.4M** | **$10,697.46** | **$56,197.22** | **$9,165.28** |
+| **Total** | **83,510** | **119.3M** | **34.7M** | **8,294.7M** | **$10,692.21** | **$56,165.61** | **$9,148.41** |
 
-_8,734.5M total tokens processed. 95.1% cache hit rate._
+_8,722.5M total tokens processed. 95.1% cache hit rate._
 
-_$65,362.49 total saved ($56,197.22 caching + $9,165.28 model routing vs all-Opus)._
+_$65,314.02 total saved ($56,165.61 caching + $9,148.41 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.1% of tokens are cache reads, where price differences between models are small._
 
@@ -176,5 +176,5 @@ _Model savings are modest because ~95.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-16 07:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-16 08:37 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

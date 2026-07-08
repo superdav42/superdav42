@@ -21,10 +21,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 2.3h | 16.2h | 121.6h | ~4,482h* |
 | User AI session hours | 3.1h | 34.3h | 132.5h | 481.6h |
-| AI worker hours | 1.7h | 26.2h | 143.7h | 883.4h |
-| AI concurrency hours | 8.2h | 130.1h | 502.7h | 2,032.1h |
-| Interactive sessions | 45 | 323 | 1,266 | 2,650 |
-| Worker sessions | 16 | 122 | 470 | 1,791 |
+| AI worker hours | 1.5h | 26.1h | 142.9h | 883.5h |
+| AI concurrency hours | 8.0h | 130.0h | 502.0h | 2,032.2h |
+| Interactive sessions | 44 | 322 | 1,266 | 2,651 |
+| Worker sessions | 16 | 122 | 465 | 1,792 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -36,15 +36,15 @@ _AI session 365-day totals cover 82 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 75,278 | 381.9M | 15.5M | 5,854.2M | $2,794.47 | $15,806.38 | $12,541.41 |
+| gpt-5.5 | 75,320 | 382.0M | 15.5M | 5,855.5M | $2,795.20 | $15,809.94 | $12,544.64 |
 | gpt-5.3-codex-spark | 784 | 2.2M | 128K | 36.3M | $31.48 | $68.10 | $68.39 |
 | gpt-5.4-mini | 44 | 556K | 2K | 4K | $0.15 | $0.01 | $7.15 |
 | gpt-5.4 | 3 | 18K | 21 | 8K | $0.05 | $0.02 | $0.24 |
-| **Total** | **76,109** | **384.7M** | **15.6M** | **5,890.5M** | **$2,826.15** | **$15,874.51** | **$12,617.19** |
+| **Total** | **76,151** | **384.8M** | **15.6M** | **5,891.8M** | **$2,826.88** | **$15,878.06** | **$12,620.42** |
 
-_6,290.9M total tokens processed. 93.6% cache hit rate._
+_6,292.4M total tokens processed. 93.6% cache hit rate._
 
-_$28,491.70 total saved ($15,874.51 caching + $12,617.19 model routing vs all-Opus)._
+_$28,498.48 total saved ($15,878.06 caching + $12,620.42 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -55,7 +55,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | claude-opus-4-6 | 34,190 | 135.7M | 13.7M | 4,558.0M | $13,626.58 | $61,533.39 | $0.00 |
 | claude-opus-4-7 | 28,708 | 36K | 20.2M | 3,290.4M | $9,814.68 | $44,421.68 | $0.00 |
 | claude-sonnet-4-6 | 146,081 | 5.2M | 53.7M | 12,372.6M | $5,886.49 | $33,406.11 | $18,134.41 |
-| gpt-5.5 | 109,507 | 518.6M | 21.7M | 8,443.2M | $3,920.57 | $22,796.91 | $17,661.10 |
+| gpt-5.5 | 109,549 | 518.7M | 21.7M | 8,444.6M | $3,921.30 | $22,800.46 | $17,664.34 |
 | z-ai/glm-5.1 | 650 | 43.5M | 137K | 0 | $132.56 | $0.00 | $530.23 |
 | minimax-m2.5-free | 3,070 | 10.3M | 666K | 213.6M | $115.07 | $0.00 | $526.12 |
 | nemotron-3-super-free | 490 | 37.2M | 32K | 0 | $114.32 | $0.00 | $448.93 |
@@ -86,11 +86,11 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | gpt-5.4 | 8 | 61K | 1K | 153K | $0.22 | $0.29 | $0.99 |
 | gpt-5.4-mini-fast | 55 | 440K | 9K | 2.4M | $0.22 | $4.51 | $8.24 |
 | claude-sonnet-4 | 2 | 4 | 16 | 24K | $0.10 | $0.07 | $0.03 |
-| **Total** | **341,857** | **782.2M** | **115.1M** | **29,951.6M** | **$34,028.08** | **$163,639.52** | **$39,421.40** |
+| **Total** | **341,899** | **782.3M** | **115.1M** | **29,952.9M** | **$34,028.81** | **$163,643.07** | **$39,424.63** |
 
-_31,610.7M total tokens processed. 94.8% cache hit rate._
+_31,612.1M total tokens processed. 94.8% cache hit rate._
 
-_$203,060.91 total saved ($163,639.52 caching + $39,421.40 model routing vs all-Opus)._
+_$203,067.70 total saved ($163,643.07 caching + $39,424.63 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -190,5 +190,5 @@ _Model savings are modest because ~94.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-08 12:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-08 13:47 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

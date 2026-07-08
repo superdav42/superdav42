@@ -19,12 +19,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 13.9h | 119.2h | ~4,482h* |
-| User AI session hours | 3.1h | 34.4h | 132.5h | 481.6h |
-| AI worker hours | 2.4h | 26.6h | 143.3h | 882.9h |
-| AI concurrency hours | 8.5h | 131.2h | 501.8h | 2,030.9h |
-| Interactive sessions | 44 | 322 | 1,263 | 2,640 |
-| Worker sessions | 13 | 121 | 465 | 1,785 |
+| Screen time (Linux) | 1h | 14.9h | 120.2h | ~4,482h* |
+| User AI session hours | 3.1h | 34.3h | 132.5h | 481.6h |
+| AI worker hours | 2.5h | 26.4h | 143.4h | 883.0h |
+| AI concurrency hours | 8.9h | 130.4h | 502.2h | 2,031.3h |
+| Interactive sessions | 44 | 323 | 1,263 | 2,642 |
+| Worker sessions | 14 | 121 | 466 | 1,786 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -36,15 +36,15 @@ _AI session 365-day totals cover 82 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 75,020 | 381.1M | 15.5M | 5,847.4M | $2,789.77 | $15,788.17 | $12,520.62 |
+| gpt-5.5 | 75,079 | 381.2M | 15.5M | 5,848.5M | $2,790.68 | $15,791.16 | $12,524.64 |
 | gpt-5.3-codex-spark | 784 | 2.2M | 128K | 36.3M | $31.48 | $68.10 | $68.39 |
 | gpt-5.4-mini | 44 | 556K | 2K | 4K | $0.15 | $0.01 | $7.15 |
 | gpt-5.4 | 3 | 18K | 21 | 8K | $0.05 | $0.02 | $0.24 |
-| **Total** | **75,851** | **383.9M** | **15.6M** | **5,883.8M** | **$2,821.45** | **$15,856.30** | **$12,596.40** |
+| **Total** | **75,910** | **384.1M** | **15.6M** | **5,884.9M** | **$2,822.36** | **$15,859.28** | **$12,600.42** |
 
-_6,283.3M total tokens processed. 93.6% cache hit rate._
+_6,284.6M total tokens processed. 93.6% cache hit rate._
 
-_$28,452.70 total saved ($15,856.30 caching + $12,596.40 model routing vs all-Opus)._
+_$28,459.70 total saved ($15,859.28 caching + $12,600.42 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -55,7 +55,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | claude-opus-4-6 | 34,190 | 135.7M | 13.7M | 4,558.0M | $13,626.58 | $61,533.39 | $0.00 |
 | claude-opus-4-7 | 28,708 | 36K | 20.2M | 3,290.4M | $9,814.68 | $44,421.68 | $0.00 |
 | claude-sonnet-4-6 | 146,081 | 5.2M | 53.7M | 12,372.6M | $5,886.49 | $33,406.11 | $18,134.41 |
-| gpt-5.5 | 109,249 | 517.8M | 21.7M | 8,436.5M | $3,915.86 | $22,778.70 | $17,640.31 |
+| gpt-5.5 | 109,308 | 518.0M | 21.7M | 8,437.6M | $3,916.78 | $22,781.68 | $17,644.34 |
 | z-ai/glm-5.1 | 650 | 43.5M | 137K | 0 | $132.56 | $0.00 | $530.23 |
 | minimax-m2.5-free | 3,070 | 10.3M | 666K | 213.6M | $115.07 | $0.00 | $526.12 |
 | nemotron-3-super-free | 490 | 37.2M | 32K | 0 | $114.32 | $0.00 | $448.93 |
@@ -86,11 +86,11 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | gpt-5.4 | 8 | 61K | 1K | 153K | $0.22 | $0.29 | $0.99 |
 | gpt-5.4-mini-fast | 55 | 440K | 9K | 2.4M | $0.22 | $4.51 | $8.24 |
 | claude-sonnet-4 | 2 | 4 | 16 | 24K | $0.10 | $0.07 | $0.03 |
-| **Total** | **341,599** | **781.3M** | **115.1M** | **29,944.9M** | **$34,023.37** | **$163,621.31** | **$39,400.60** |
+| **Total** | **341,658** | **781.5M** | **115.1M** | **29,946.0M** | **$34,024.29** | **$163,624.29** | **$39,404.63** |
 
-_31,603.0M total tokens processed. 94.8% cache hit rate._
+_31,604.3M total tokens processed. 94.8% cache hit rate._
 
-_$203,021.91 total saved ($163,621.31 caching + $39,400.60 model routing vs all-Opus)._
+_$203,028.92 total saved ($163,624.29 caching + $39,404.63 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -190,5 +190,5 @@ _Model savings are modest because ~94.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-08 06:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-08 07:45 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

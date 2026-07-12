@@ -19,14 +19,14 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 71.1h | 109.2h | ~4252h* |
-| Interactive human attention | 1.9h | 31.0h | 111.5h | 388.6h |
-| Interactive AI generation | 4.1h | 70.8h | 247.5h | 707.1h |
+| Screen time (Linux) | 24h | 72.1h | 110.2h | ~4252h* |
+| Interactive human attention | 2.6h | 31.7h | 112.2h | 389.3h |
+| Interactive AI generation | 4.2h | 70.4h | 247.6h | 707.3h |
 | Worker-classified human attention | 0.0h | 0.6h | 2.8h | 6.0h |
-| Worker/headless AI generation | 2.1h | 18.3h | 62.8h | 342.6h |
-| Additive observed work | 8.1h | 120.0h | 422.3h | 1,441.4h |
-| Interactive sessions | 73 | 465 | 1,690 | 3,375 |
-| Worker sessions | 32 | 165 | 514 | 2,301 |
+| Worker/headless AI generation | 1.9h | 18.3h | 62.7h | 342.6h |
+| Additive observed work | 8.7h | 120.4h | 423.0h | 1,442.2h |
+| Interactive sessions | 92 | 484 | 1,710 | 3,396 |
+| Worker sessions | 33 | 167 | 515 | 2,303 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -38,15 +38,15 @@ _AI session 365-day totals cover 86 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 8,063 | 33.3M | 1.6M | 611.1M | $279.08 | $1,650.16 | $1,234.95 |
+| gpt-5.5 | 8,079 | 33.4M | 1.6M | 611.7M | $279.48 | $1,651.66 | $1,236.71 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-sol | 363 | 1.3M | 51K | 12.7M | $15.11 | $34.49 | $34.48 |
-| gpt-5.6-terra | 157 | 979K | 35K | 13.4M | $7.29 | $36.34 | $30.02 |
-| **Total** | **8,685** | **41.0M** | **1.8M** | **637.4M** | **$318.39** | **$1,720.99** | **$1,367.10** |
+| gpt-5.6-sol | 365 | 1.3M | 51K | 12.7M | $15.24 | $34.49 | $34.81 |
+| gpt-5.6-terra | 159 | 980K | 35K | 13.6M | $7.34 | $36.79 | $30.24 |
+| **Total** | **8,705** | **41.1M** | **1.8M** | **638.1M** | **$318.97** | **$1,722.93** | **$1,369.41** |
 
-_680.3M total tokens processed. 93.7% cache hit rate._
+_681.2M total tokens processed. 93.7% cache hit rate._
 
-_$3,088.09 total saved ($1,720.99 caching + $1,367.10 model routing vs all-Opus)._
+_$3,092.34 total saved ($1,722.93 caching + $1,369.41 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 
@@ -54,15 +54,15 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 8,063 | 33.3M | 1.6M | 611.1M | $279.08 | $1,650.16 | $1,234.95 |
+| gpt-5.5 | 8,079 | 33.4M | 1.6M | 611.7M | $279.48 | $1,651.66 | $1,236.71 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-sol | 363 | 1.3M | 51K | 12.7M | $15.11 | $34.49 | $34.48 |
-| gpt-5.6-terra | 157 | 979K | 35K | 13.4M | $7.29 | $36.34 | $30.02 |
-| **Total** | **8,685** | **41.0M** | **1.8M** | **637.4M** | **$318.39** | **$1,720.99** | **$1,367.10** |
+| gpt-5.6-sol | 365 | 1.3M | 51K | 12.7M | $15.24 | $34.49 | $34.81 |
+| gpt-5.6-terra | 159 | 980K | 35K | 13.6M | $7.34 | $36.79 | $30.24 |
+| **Total** | **8,705** | **41.1M** | **1.8M** | **638.1M** | **$318.97** | **$1,722.93** | **$1,369.41** |
 
-_680.3M total tokens processed. 93.7% cache hit rate._
+_681.2M total tokens processed. 93.7% cache hit rate._
 
-_$3,088.09 total saved ($1,720.99 caching + $1,367.10 model routing vs all-Opus)._
+_$3,092.34 total saved ($1,722.93 caching + $1,369.41 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -162,5 +162,5 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-12 01:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-12 02:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

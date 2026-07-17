@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 3.3h |
 | Worker/headless AI generation | 7.5h | 72.8h | 78.3h | 358.6h |
 | Additive observed work | 7.5h | 72.8h | 78.3h | 1,111.0h |
-| Interactive sessions | 14 | 14 | 14 | 1,789 |
-| Worker sessions | 75 | 913 | 964 | 2,754 |
+| Interactive sessions | 15 | 15 | 15 | 1,790 |
+| Worker sessions | 81 | 919 | 970 | 2,760 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,16 +40,16 @@ _AI session 365-day totals cover 90 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 12,626 | 57.9M | 2.7M | 1,002.2M | $464.53 | $2,705.99 | $2,061.07 |
-| gpt-5.6-sol | 1,576 | 6.7M | 303K | 105.4M | $100.12 | $284.79 | $225.36 |
-| gpt-5.6-terra | 1,339 | 11.2M | 352K | 131.2M | $74.07 | $354.51 | $313.76 |
+| gpt-5.5 | 12,752 | 58.2M | 2.7M | 1,017.3M | $469.75 | $2,746.91 | $2,084.60 |
+| gpt-5.6-sol | 1,599 | 6.9M | 311K | 107.7M | $103.02 | $290.91 | $231.48 |
+| gpt-5.6-terra | 1,356 | 11.7M | 357K | 133.3M | $76.01 | $360.03 | $322.51 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 39 | 489K | 6K | 3.5M | $0.91 | $9.46 | $10.48 |
-| **Total** | **15,682** | **81.7M** | **3.4M** | **1,242.4M** | **$656.54** | **$3,354.75** | **$2,678.32** |
+| **Total** | **15,848** | **82.8M** | **3.4M** | **1,261.9M** | **$666.60** | **$3,407.31** | **$2,716.72** |
 
-_1,327.7M total tokens processed. 93.6% cache hit rate._
+_1,348.3M total tokens processed. 93.6% cache hit rate._
 
-_$6,033.06 total saved ($3,354.75 caching + $2,678.32 model routing vs all-Opus)._
+_$6,124.03 total saved ($3,407.31 caching + $2,716.72 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -57,16 +57,16 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 12,626 | 57.9M | 2.7M | 1,002.2M | $464.53 | $2,705.99 | $2,061.07 |
-| gpt-5.6-sol | 1,576 | 6.7M | 303K | 105.4M | $100.12 | $284.79 | $225.36 |
-| gpt-5.6-terra | 1,339 | 11.2M | 352K | 131.2M | $74.07 | $354.51 | $313.76 |
+| gpt-5.5 | 12,752 | 58.2M | 2.7M | 1,017.3M | $469.75 | $2,746.91 | $2,084.60 |
+| gpt-5.6-sol | 1,599 | 6.9M | 311K | 107.7M | $103.02 | $290.91 | $231.48 |
+| gpt-5.6-terra | 1,356 | 11.7M | 357K | 133.3M | $76.01 | $360.03 | $322.51 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 39 | 489K | 6K | 3.5M | $0.91 | $9.46 | $10.48 |
-| **Total** | **15,682** | **81.7M** | **3.4M** | **1,242.4M** | **$656.54** | **$3,354.75** | **$2,678.32** |
+| **Total** | **15,848** | **82.8M** | **3.4M** | **1,261.9M** | **$666.60** | **$3,407.31** | **$2,716.72** |
 
-_1,327.7M total tokens processed. 93.6% cache hit rate._
+_1,348.3M total tokens processed. 93.6% cache hit rate._
 
-_$6,033.06 total saved ($3,354.75 caching + $2,678.32 model routing vs all-Opus)._
+_$6,124.03 total saved ($3,407.31 caching + $2,716.72 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -166,5 +166,5 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-17 02:35 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-17 03:36 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

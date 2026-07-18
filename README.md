@@ -25,8 +25,8 @@
 | Worker-classified human attention | 2.2h | 2.2h | 2.2h | 2.2h |
 | Worker/headless AI generation | 9.4h | 57.4h | 99.5h | 99.5h |
 | Additive observed work | 18.0h | 66.0h | 108.1h | 108.1h |
-| Interactive sessions | 96 | 96 | 96 | 96 |
-| Worker sessions | 112 | 838 | 1,086 | 1,086 |
+| Interactive sessions | 99 | 99 | 99 | 99 |
+| Worker sessions | 115 | 841 | 1,089 | 1,089 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,35 +40,35 @@ _AI session 365-day totals cover 9 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 14,437 | 65.9M | 3.1M | 1,140.8M | $529.51 | $3,080.22 | $2,348.95 |
-| gpt-5.6-sol | 3,031 | 15.4M | 744K | 270.7M | $248.85 | $731.15 | $554.58 |
-| gpt-5.6-terra | 2,211 | 18.3M | 547K | 227.9M | $121.97 | $615.35 | $526.39 |
+| gpt-5.5 | 14,505 | 66.3M | 3.1M | 1,147.5M | $532.33 | $3,098.26 | $2,361.97 |
+| gpt-5.6-sol | 3,112 | 15.5M | 763K | 285.2M | $257.80 | $770.16 | $574.92 |
+| gpt-5.6-terra | 2,216 | 18.3M | 547K | 227.9M | $122.06 | $615.45 | $526.80 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 39 | 489K | 6K | 3.5M | $0.91 | $9.46 | $10.48 |
-| **Total** | **19,820** | **105.6M** | **4.4M** | **1,643.0M** | **$918.15** | **$4,436.18** | **$3,508.05** |
+| **Total** | **19,974** | **106.1M** | **4.5M** | **1,664.1M** | **$930.01** | **$4,493.33** | **$3,541.82** |
 
-_1,753.2M total tokens processed. 93.7% cache hit rate._
+_1,774.9M total tokens processed. 93.8% cache hit rate._
 
-_$7,944.23 total saved ($4,436.18 caching + $3,508.05 model routing vs all-Opus)._
+_$8,035.14 total saved ($4,493.33 caching + $3,541.82 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 14,437 | 65.9M | 3.1M | 1,140.8M | $529.51 | $3,080.22 | $2,348.95 |
-| gpt-5.6-sol | 3,031 | 15.4M | 744K | 270.7M | $248.85 | $731.15 | $554.58 |
-| gpt-5.6-terra | 2,211 | 18.3M | 547K | 227.9M | $121.97 | $615.35 | $526.39 |
+| gpt-5.5 | 14,505 | 66.3M | 3.1M | 1,147.5M | $532.33 | $3,098.26 | $2,361.97 |
+| gpt-5.6-sol | 3,112 | 15.5M | 763K | 285.2M | $257.80 | $770.16 | $574.92 |
+| gpt-5.6-terra | 2,216 | 18.3M | 547K | 227.9M | $122.06 | $615.45 | $526.80 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 39 | 489K | 6K | 3.5M | $0.91 | $9.46 | $10.48 |
-| **Total** | **19,820** | **105.6M** | **4.4M** | **1,643.0M** | **$918.15** | **$4,436.18** | **$3,508.05** |
+| **Total** | **19,974** | **106.1M** | **4.5M** | **1,664.1M** | **$930.01** | **$4,493.33** | **$3,541.82** |
 
-_1,753.2M total tokens processed. 93.7% cache hit rate._
+_1,774.9M total tokens processed. 93.8% cache hit rate._
 
-_$7,944.23 total saved ($4,436.18 caching + $3,508.05 model routing vs all-Opus)._
+_$8,035.14 total saved ($4,493.33 caching + $3,541.82 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -166,5 +166,5 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-18 19:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-18 20:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

@@ -25,8 +25,8 @@
 | Worker-classified human attention | 1.5h | 3.7h | 3.7h | 3.7h |
 | Worker/headless AI generation | 2.0h | 50.6h | 115.0h | 115.0h |
 | Additive observed work | 11.4h | 91.8h | 156.2h | 156.2h |
-| Interactive sessions | 87 | 239 | 239 | 239 |
-| Worker sessions | 100 | 462 | 1,305 | 1,305 |
+| Interactive sessions | 90 | 242 | 242 | 242 |
+| Worker sessions | 107 | 469 | 1,312 | 1,312 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,17 +40,17 @@ _AI session 365-day totals cover 12 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 16,953 | 76.1M | 3.7M | 1,251.7M | $595.19 | $3,379.77 | $2,641.58 |
-| gpt-5.6-sol | 4,339 | 25.1M | 1.0M | 436.0M | $395.03 | $1,177.46 | $886.66 |
-| gpt-5.6-terra | 6,204 | 46.9M | 1.7M | 690.0M | $345.71 | $1,863.08 | $1,496.78 |
+| gpt-5.5 | 16,970 | 76.2M | 3.7M | 1,252.4M | $595.60 | $3,381.49 | $2,643.40 |
+| gpt-5.6-sol | 4,478 | 26.0M | 1.0M | 446.8M | $406.96 | $1,206.56 | $911.98 |
+| gpt-5.6-terra | 6,262 | 47.1M | 1.7M | 698.6M | $348.79 | $1,886.25 | $1,509.89 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 69 | 641K | 11K | 6.4M | $1.40 | $17.36 | $16.07 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **27,716** | **154.4M** | **6.5M** | **2,386.1M** | **$1,355.49** | **$6,441.01** | **$5,111.49** |
+| **Total** | **27,930** | **155.5M** | **6.6M** | **2,406.1M** | **$1,370.91** | **$6,495.01** | **$5,151.73** |
 
-_2,547.1M total tokens processed. 93.7% cache hit rate._
+_2,568.3M total tokens processed. 93.7% cache hit rate._
 
-_$11,552.50 total saved ($6,441.01 caching + $5,111.49 model routing vs all-Opus)._
+_$11,646.74 total saved ($6,495.01 caching + $5,151.73 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 
@@ -58,17 +58,17 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 16,953 | 76.1M | 3.7M | 1,251.7M | $595.19 | $3,379.77 | $2,641.58 |
-| gpt-5.6-sol | 4,339 | 25.1M | 1.0M | 436.0M | $395.03 | $1,177.46 | $886.66 |
-| gpt-5.6-terra | 6,204 | 46.9M | 1.7M | 690.0M | $345.71 | $1,863.08 | $1,496.78 |
+| gpt-5.5 | 16,970 | 76.2M | 3.7M | 1,252.4M | $595.60 | $3,381.49 | $2,643.40 |
+| gpt-5.6-sol | 4,478 | 26.0M | 1.0M | 446.8M | $406.96 | $1,206.56 | $911.98 |
+| gpt-5.6-terra | 6,262 | 47.1M | 1.7M | 698.6M | $348.79 | $1,886.25 | $1,509.89 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 69 | 641K | 11K | 6.4M | $1.40 | $17.36 | $16.07 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **27,716** | **154.4M** | **6.5M** | **2,386.1M** | **$1,355.49** | **$6,441.01** | **$5,111.49** |
+| **Total** | **27,930** | **155.5M** | **6.6M** | **2,406.1M** | **$1,370.91** | **$6,495.01** | **$5,151.73** |
 
-_2,547.1M total tokens processed. 93.7% cache hit rate._
+_2,568.3M total tokens processed. 93.7% cache hit rate._
 
-_$11,552.50 total saved ($6,441.01 caching + $5,111.49 model routing vs all-Opus)._
+_$11,646.74 total saved ($6,495.01 caching + $5,151.73 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -168,5 +168,5 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-22 04:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-22 05:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.0h | 3.7h | 3.7h | 3.7h |
 | Worker/headless AI generation | 0.9h | 38.8h | 117.1h | 117.1h |
 | Additive observed work | 15.2h | 111.9h | 190.2h | 190.2h |
-| Interactive sessions | 78 | 320 | 320 | 320 |
-| Worker sessions | 74 | 474 | 1,389 | 1,389 |
+| Interactive sessions | 81 | 323 | 323 | 323 |
+| Worker sessions | 79 | 479 | 1,394 | 1,394 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,37 +40,37 @@ _AI session 365-day totals cover 14 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 18,909 | 86.3M | 4.2M | 1,401.6M | $667.30 | $3,784.58 | $2,972.49 |
-| gpt-5.6-terra | 8,027 | 57.3M | 2.2M | 882.5M | $432.59 | $2,382.80 | $1,879.81 |
+| gpt-5.5 | 19,014 | 86.8M | 4.2M | 1,407.5M | $670.73 | $3,800.33 | $2,986.87 |
+| gpt-5.6-terra | 8,338 | 58.3M | 2.2M | 923.8M | $447.07 | $2,494.38 | $1,944.99 |
 | gpt-5.6-sol | 4,478 | 26.0M | 1.0M | 446.8M | $406.96 | $1,206.56 | $911.98 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 69 | 641K | 11K | 6.4M | $1.40 | $17.36 | $16.07 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **31,634** | **175.8M** | **7.5M** | **2,739.3M** | **$1,526.41** | **$7,394.64** | **$5,850.75** |
+| **Total** | **32,050** | **177.3M** | **7.6M** | **2,786.4M** | **$1,544.32** | **$7,521.98** | **$5,930.31** |
 
-_2,922.8M total tokens processed. 93.7% cache hit rate._
+_2,971.5M total tokens processed. 93.8% cache hit rate._
 
-_$13,245.39 total saved ($7,394.64 caching + $5,850.75 model routing vs all-Opus)._
+_$13,452.29 total saved ($7,521.98 caching + $5,930.31 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 18,909 | 86.3M | 4.2M | 1,401.6M | $667.30 | $3,784.58 | $2,972.49 |
-| gpt-5.6-terra | 8,027 | 57.3M | 2.2M | 882.5M | $432.59 | $2,382.80 | $1,879.81 |
+| gpt-5.5 | 19,014 | 86.8M | 4.2M | 1,407.5M | $670.73 | $3,800.33 | $2,986.87 |
+| gpt-5.6-terra | 8,338 | 58.3M | 2.2M | 923.8M | $447.07 | $2,494.38 | $1,944.99 |
 | gpt-5.6-sol | 4,478 | 26.0M | 1.0M | 446.8M | $406.96 | $1,206.56 | $911.98 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 69 | 641K | 11K | 6.4M | $1.40 | $17.36 | $16.07 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **31,634** | **175.8M** | **7.5M** | **2,739.3M** | **$1,526.41** | **$7,394.64** | **$5,850.75** |
+| **Total** | **32,050** | **177.3M** | **7.6M** | **2,786.4M** | **$1,544.32** | **$7,521.98** | **$5,930.31** |
 
-_2,922.8M total tokens processed. 93.7% cache hit rate._
+_2,971.5M total tokens processed. 93.8% cache hit rate._
 
-_$13,245.39 total saved ($7,394.64 caching + $5,850.75 model routing vs all-Opus)._
+_$13,452.29 total saved ($7,521.98 caching + $5,930.31 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -168,5 +168,5 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-24 00:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-24 01:12 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->

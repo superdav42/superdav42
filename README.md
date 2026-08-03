@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.0h | 0.2h | 4.3h | 4.3h |
 | Worker/headless AI generation | 1.1h | 23.7h | 160.9h | 160.9h |
 | Additive observed work | 9.8h | 96.3h | 359.3h | 359.3h |
-| Interactive sessions | 70 | 325 | 782 | 782 |
-| Worker sessions | 107 | 429 | 2,013 | 2,013 |
+| Interactive sessions | 71 | 326 | 783 | 783 |
+| Worker sessions | 116 | 438 | 2,022 | 2,022 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,17 +40,17 @@ _AI session 365-day totals cover 25 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 11,239 | 66.9M | 2.5M | 1,284.4M | $1,109.76 | $3,467.89 | $2,497.22 |
-| gpt-5.5 | 27,932 | 132.6M | 6.7M | 1,995.5M | $982.15 | $5,387.92 | $4,390.08 |
-| gpt-5.6-terra | 17,566 | 119.0M | 4.7M | 1,882.5M | $916.38 | $5,082.88 | $3,974.65 |
+| gpt-5.6-sol | 11,496 | 68.2M | 2.6M | 1,311.8M | $1,135.09 | $3,541.89 | $2,550.83 |
+| gpt-5.5 | 27,950 | 132.7M | 6.7M | 1,996.1M | $982.58 | $5,389.71 | $4,391.99 |
+| gpt-5.6-terra | 17,635 | 119.2M | 4.7M | 1,889.4M | $919.04 | $5,101.61 | $3,986.38 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-luna | 479 | 3.1M | 54K | 35.0M | $7.20 | $94.56 | $82.78 |
+| gpt-5.6-luna | 481 | 3.1M | 54K | 35.0M | $7.23 | $94.56 | $83.12 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **57,367** | **327.3M** | **14.1M** | **5,199.2M** | **$3,033.65** | **$14,036.60** | **$11,015.13** |
+| **Total** | **57,713** | **328.8M** | **14.2M** | **5,234.2M** | **$3,062.10** | **$14,131.12** | **$11,082.71** |
 
-_5,540.8M total tokens processed. 93.8% cache hit rate._
+_5,577.5M total tokens processed. 93.8% cache hit rate._
 
-_$25,051.73 total saved ($14,036.60 caching + $11,015.13 model routing vs all-Opus)._
+_$25,213.83 total saved ($14,131.12 caching + $11,082.71 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
@@ -58,17 +58,17 @@ _Model savings are modest because ~93.8% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 11,239 | 66.9M | 2.5M | 1,284.4M | $1,109.76 | $3,467.89 | $2,497.22 |
-| gpt-5.5 | 27,932 | 132.6M | 6.7M | 1,995.5M | $982.15 | $5,387.92 | $4,390.08 |
-| gpt-5.6-terra | 17,566 | 119.0M | 4.7M | 1,882.5M | $916.38 | $5,082.88 | $3,974.65 |
+| gpt-5.6-sol | 11,496 | 68.2M | 2.6M | 1,311.8M | $1,135.09 | $3,541.89 | $2,550.83 |
+| gpt-5.5 | 27,950 | 132.7M | 6.7M | 1,996.1M | $982.58 | $5,389.71 | $4,391.99 |
+| gpt-5.6-terra | 17,635 | 119.2M | 4.7M | 1,889.4M | $919.04 | $5,101.61 | $3,986.38 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-luna | 479 | 3.1M | 54K | 35.0M | $7.20 | $94.56 | $82.78 |
+| gpt-5.6-luna | 481 | 3.1M | 54K | 35.0M | $7.23 | $94.56 | $83.12 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **57,367** | **327.3M** | **14.1M** | **5,199.2M** | **$3,033.65** | **$14,036.60** | **$11,015.13** |
+| **Total** | **57,713** | **328.8M** | **14.2M** | **5,234.2M** | **$3,062.10** | **$14,131.12** | **$11,082.71** |
 
-_5,540.8M total tokens processed. 93.8% cache hit rate._
+_5,577.5M total tokens processed. 93.8% cache hit rate._
 
-_$25,051.73 total saved ($14,036.60 caching + $11,015.13 model routing vs all-Opus)._
+_$25,213.83 total saved ($14,131.12 caching + $11,082.71 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -168,7 +168,7 @@ _Model savings are modest because ~93.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-03 22:15 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-03 23:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

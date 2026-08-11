@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 1.9h | 24.9h | 132.5h | 196.9h |
 | Additive observed work | 20.5h | 180.7h | 511.7h | 576.1h |
 | Interactive sessions | 33 | 258 | 1,039 | 1,039 |
-| Worker sessions | 92 | 568 | 1,789 | 2,632 |
+| Worker sessions | 95 | 571 | 1,792 | 2,635 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,16 +40,16 @@ _AI session 365-day totals cover 33 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 28,151 | 165.0M | 6.8M | 3,402.6M | $2,885.40 | $9,187.19 | $6,476.67 |
+| gpt-5.6-sol | 28,121 | 164.9M | 6.8M | 3,401.3M | $2,883.77 | $9,183.53 | $6,473.01 |
 | gpt-5.6-terra | 20,530 | 133.7M | 5.5M | 2,123.7M | $1,037.99 | $5,734.11 | $4,486.38 |
-| gpt-5.5 | 23,098 | 114.4M | 6.0M | 1,520.7M | $792.88 | $4,105.91 | $3,560.92 |
+| gpt-5.5 | 22,982 | 113.9M | 6.0M | 1,510.2M | $788.26 | $4,077.66 | $3,540.77 |
 | gpt-5.6-luna | 826 | 7.4M | 70K | 36.3M | $11.93 | $98.22 | $137.21 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **72,654** | **420.7M** | **18.5M** | **7,085.2M** | **$4,729.45** | **$19,128.77** | **$14,663.93** |
+| **Total** | **72,508** | **420.1M** | **18.5M** | **7,073.4M** | **$4,723.20** | **$19,096.86** | **$14,640.11** |
 
-_7,524.5M total tokens processed. 94.2% cache hit rate._
+_7,512.1M total tokens processed. 94.2% cache hit rate._
 
-_$33,792.70 total saved ($19,128.77 caching + $14,663.93 model routing vs all-Opus)._
+_$33,736.97 total saved ($19,096.86 caching + $14,640.11 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -167,7 +167,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-11 15:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-11 16:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

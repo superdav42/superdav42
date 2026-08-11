@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 1.9h | 24.9h | 132.5h | 196.9h |
 | Additive observed work | 20.5h | 180.7h | 511.7h | 576.1h |
 | Interactive sessions | 29 | 254 | 1,035 | 1,035 |
-| Worker sessions | 65 | 541 | 1,762 | 2,605 |
+| Worker sessions | 68 | 544 | 1,765 | 2,608 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -42,14 +42,14 @@ _AI session 365-day totals cover 33 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 28,156 | 165.1M | 6.8M | 3,402.6M | $2,885.72 | $9,187.20 | $6,477.45 |
 | gpt-5.6-terra | 20,532 | 133.7M | 5.5M | 2,123.7M | $1,038.04 | $5,734.15 | $4,486.57 |
-| gpt-5.5 | 23,327 | 115.1M | 6.0M | 1,527.5M | $797.31 | $4,124.37 | $3,580.42 |
+| gpt-5.5 | 23,310 | 115.1M | 6.0M | 1,527.0M | $796.94 | $4,122.93 | $3,578.81 |
 | gpt-5.6-luna | 826 | 7.4M | 70K | 36.3M | $11.93 | $98.22 | $137.21 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **72,890** | **421.5M** | **18.5M** | **7,092.1M** | **$4,734.25** | **$19,147.28** | **$14,684.39** |
+| **Total** | **72,873** | **421.5M** | **18.5M** | **7,091.6M** | **$4,733.88** | **$19,145.85** | **$14,682.79** |
 
-_7,532.2M total tokens processed. 94.2% cache hit rate._
+_7,531.7M total tokens processed. 94.2% cache hit rate._
 
-_$33,831.67 total saved ($19,147.28 caching + $14,684.39 model routing vs all-Opus)._
+_$33,828.64 total saved ($19,145.85 caching + $14,682.79 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -167,7 +167,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-11 06:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-11 07:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

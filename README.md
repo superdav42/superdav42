@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 1.9h | 24.9h | 132.5h | 196.9h |
 | Additive observed work | 20.5h | 180.7h | 511.7h | 576.1h |
 | Interactive sessions | 35 | 260 | 1,041 | 1,041 |
-| Worker sessions | 113 | 589 | 1,810 | 2,653 |
+| Worker sessions | 116 | 592 | 1,813 | 2,656 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,16 +40,16 @@ _AI session 365-day totals cover 33 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 27,799 | 164.1M | 6.8M | 3,383.1M | $2,868.75 | $9,134.37 | $6,438.60 |
-| gpt-5.6-terra | 20,573 | 133.9M | 5.5M | 2,125.3M | $1,039.22 | $5,738.50 | $4,491.35 |
-| gpt-5.5 | 22,819 | 112.3M | 5.9M | 1,498.0M | $780.44 | $4,044.74 | $3,504.89 |
-| gpt-5.6-luna | 836 | 7.5M | 71K | 36.3M | $12.07 | $98.22 | $138.87 |
+| gpt-5.6-sol | 27,782 | 164.7M | 6.8M | 3,381.7M | $2,871.41 | $9,130.74 | $6,444.73 |
+| gpt-5.6-terra | 20,565 | 133.8M | 5.5M | 2,124.7M | $1,038.78 | $5,736.83 | $4,489.28 |
+| gpt-5.5 | 22,730 | 111.3M | 5.9M | 1,489.9M | $775.14 | $4,022.89 | $3,481.11 |
+| gpt-5.6-luna | 839 | 7.6M | 71K | 36.3M | $12.12 | $98.22 | $139.37 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **72,076** | **418.1M** | **18.4M** | **7,044.6M** | **$4,701.73** | **$19,019.18** | **$14,576.45** |
+| **Total** | **71,965** | **417.6M** | **18.4M** | **7,034.6M** | **$4,698.70** | **$18,992.02** | **$14,557.23** |
 
-_7,481.2M total tokens processed. 94.2% cache hit rate._
+_7,470.6M total tokens processed. 94.2% cache hit rate._
 
-_$33,595.63 total saved ($19,019.18 caching + $14,576.45 model routing vs all-Opus)._
+_$33,549.25 total saved ($18,992.02 caching + $14,557.23 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -57,17 +57,17 @@ _Model savings are modest because ~94.2% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 28,548 | 166.8M | 6.9M | 3,416.2M | $2,903.83 | $9,223.95 | $6,518.77 |
+| gpt-5.6-sol | 28,569 | 167.6M | 6.9M | 3,417.4M | $2,908.60 | $9,227.18 | $6,529.82 |
 | gpt-5.5 | 31,544 | 149.0M | 7.8M | 2,154.0M | $1,082.37 | $5,815.89 | $4,842.00 |
-| gpt-5.6-terra | 20,737 | 134.9M | 5.5M | 2,139.0M | $1,046.69 | $5,775.35 | $4,522.15 |
+| gpt-5.6-terra | 20,739 | 135.0M | 5.5M | 2,139.0M | $1,046.87 | $5,775.36 | $4,522.96 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-luna | 836 | 7.5M | 71K | 36.3M | $12.07 | $98.22 | $138.87 |
+| gpt-5.6-luna | 839 | 7.6M | 71K | 36.3M | $12.12 | $98.22 | $139.37 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **81,816** | **464.0M** | **20.4M** | **7,747.4M** | **$5,063.12** | **$20,916.76** | **$16,092.18** |
+| **Total** | **81,842** | **464.8M** | **20.4M** | **7,748.6M** | **$5,068.12** | **$20,920.00** | **$16,104.55** |
 
-_8,232.0M total tokens processed. 94.1% cache hit rate._
+_8,234.0M total tokens processed. 94.1% cache hit rate._
 
-_$37,008.95 total saved ($20,916.76 caching + $16,092.18 model routing vs all-Opus)._
+_$37,024.55 total saved ($20,920.00 caching + $16,104.55 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -167,7 +167,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-11 23:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-12 00:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

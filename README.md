@@ -25,8 +25,8 @@
 | Worker-classified human attention | 2.2h | 4.7h | 4.9h | 4.9h |
 | Worker/headless AI generation | 4.6h | 23.6h | 156.6h | 310.8h |
 | Additive observed work | 18.0h | 125.3h | 508.8h | 662.9h |
-| Interactive sessions | 127 | 366 | 933 | 933 |
-| Worker sessions | 226 | 762 | 2,351 | 3,864 |
+| Interactive sessions | 128 | 367 | 934 | 934 |
+| Worker sessions | 232 | 768 | 2,357 | 3,870 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,16 +40,16 @@ _AI session 365-day totals cover 41 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 35,390 | 210.8M | 8.3M | 4,360.9M | $3,667.52 | $11,774.57 | $8,266.51 |
-| gpt-5.6-terra | 20,205 | 123.6M | 5.4M | 1,940.4M | $958.81 | $5,239.23 | $4,139.68 |
-| gpt-5.5 | 16,598 | 80.4M | 4.4M | 988.4M | $536.40 | $2,668.79 | $2,419.55 |
-| gpt-5.6-luna | 1,436 | 14.3M | 99K | 40.1M | $19.91 | $108.44 | $226.47 |
+| gpt-5.6-sol | 35,317 | 210.4M | 8.3M | 4,350.8M | $3,660.29 | $11,747.18 | $8,250.15 |
+| gpt-5.6-terra | 20,103 | 123.0M | 5.4M | 1,922.3M | $952.21 | $5,190.28 | $4,109.88 |
+| gpt-5.5 | 16,580 | 80.3M | 4.4M | 987.7M | $535.94 | $2,666.84 | $2,417.46 |
+| gpt-5.6-luna | 1,441 | 14.3M | 99K | 40.2M | $19.95 | $108.54 | $226.91 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **73,678** | **429.3M** | **18.4M** | **7,331.7M** | **$5,183.89** | **$19,794.38** | **$15,054.94** |
+| **Total** | **73,490** | **428.4M** | **18.3M** | **7,302.8M** | **$5,169.64** | **$19,716.20** | **$15,007.14** |
 
-_7,779.5M total tokens processed. 94.2% cache hit rate._
+_7,749.6M total tokens processed. 94.2% cache hit rate._
 
-_$34,849.31 total saved ($19,794.38 caching + $15,054.94 model routing vs all-Opus)._
+_$34,723.34 total saved ($19,716.20 caching + $15,007.14 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -58,16 +58,16 @@ _Model savings are modest because ~94.2% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 39,420 | 233.5M | 9.3M | 4,760.7M | $4,028.43 | $12,854.02 | $9,076.87 |
-| gpt-5.6-terra | 25,466 | 164.3M | 7.0M | 2,523.3M | $1,255.53 | $6,813.09 | $5,420.13 |
+| gpt-5.6-terra | 25,487 | 164.3M | 7.0M | 2,524.0M | $1,255.96 | $6,814.82 | $5,421.84 |
 | gpt-5.5 | 32,443 | 152.4M | 7.9M | 2,188.9M | $1,102.98 | $5,910.13 | $4,933.54 |
-| gpt-5.6-luna | 1,475 | 14.8M | 106K | 43.6M | $20.82 | $117.90 | $236.94 |
+| gpt-5.6-luna | 1,480 | 14.8M | 106K | 43.7M | $20.86 | $118.00 | $237.39 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **98,955** | **570.6M** | **24.4M** | **9,518.5M** | **$6,425.92** | **$25,698.48** | **$19,737.87** |
+| **Total** | **98,981** | **570.7M** | **24.4M** | **9,519.1M** | **$6,426.39** | **$25,700.31** | **$19,740.03** |
 
-_10,113.6M total tokens processed. 94.1% cache hit rate._
+_10,114.4M total tokens processed. 94.1% cache hit rate._
 
-_$45,436.35 total saved ($25,698.48 caching + $19,737.87 model routing vs all-Opus)._
+_$45,440.34 total saved ($25,700.31 caching + $19,740.03 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -167,7 +167,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-19 22:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-19 23:18 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

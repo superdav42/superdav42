@@ -19,14 +19,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 2.2h | 54.3h | 558.3h | ~4773h* |
+| Screen time (Linux) | 2.2h | 56.5h | 560.5h | ~4754h* |
 | Interactive human attention | 4.2h | 27.4h | 88.5h | 88.5h |
 | Interactive AI generation | 7.5h | 70.2h | 259.5h | 259.5h |
 | Worker-classified human attention | 2.2h | 4.7h | 4.9h | 4.9h |
 | Worker/headless AI generation | 4.6h | 23.6h | 156.6h | 310.8h |
 | Additive observed work | 18.0h | 125.3h | 508.8h | 662.9h |
 | Interactive sessions | 90 | 329 | 896 | 896 |
-| Worker sessions | 162 | 698 | 2,287 | 3,800 |
+| Worker sessions | 167 | 703 | 2,292 | 3,805 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -41,15 +41,15 @@ _AI session 365-day totals cover 41 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 34,866 | 204.8M | 8.2M | 4,286.1M | $3,595.05 | $11,572.71 | $8,099.73 |
-| gpt-5.6-terra | 20,255 | 124.3M | 5.3M | 1,962.8M | $965.60 | $5,299.82 | $4,172.01 |
-| gpt-5.5 | 16,882 | 81.4M | 4.5M | 998.7M | $542.74 | $2,696.74 | $2,447.90 |
-| gpt-5.6-luna | 1,386 | 13.8M | 97K | 39.9M | $19.33 | $107.92 | $220.01 |
+| gpt-5.6-terra | 20,253 | 124.3M | 5.3M | 1,962.8M | $965.54 | $5,299.82 | $4,171.69 |
+| gpt-5.5 | 16,866 | 81.3M | 4.5M | 998.2M | $542.38 | $2,695.35 | $2,446.28 |
+| gpt-5.6-luna | 1,391 | 13.8M | 97K | 39.9M | $19.38 | $107.99 | $220.59 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **73,438** | **424.6M** | **18.3M** | **7,289.6M** | **$5,123.97** | **$19,680.54** | **$14,942.39** |
+| **Total** | **73,425** | **424.5M** | **18.3M** | **7,289.1M** | **$5,123.60** | **$19,679.22** | **$14,941.03** |
 
-_7,732.5M total tokens processed. 94.3% cache hit rate._
+_7,732.0M total tokens processed. 94.3% cache hit rate._
 
-_$34,622.93 total saved ($19,680.54 caching + $14,942.39 model routing vs all-Opus)._
+_$34,620.25 total saved ($19,679.22 caching + $14,941.03 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.3% of tokens are cache reads, where price differences between models are small._
 
@@ -60,14 +60,14 @@ _Model savings are modest because ~94.3% of tokens are cache reads, where price 
 | gpt-5.6-sol | 38,679 | 226.6M | 9.2M | 4,660.6M | $3,936.48 | $12,583.86 | $8,865.27 |
 | gpt-5.6-terra | 25,048 | 162.2M | 6.8M | 2,492.1M | $1,238.66 | $6,728.74 | $5,348.19 |
 | gpt-5.5 | 32,344 | 152.0M | 7.9M | 2,185.0M | $1,100.76 | $5,899.76 | $4,923.62 |
-| gpt-5.6-luna | 1,425 | 14.3M | 104K | 43.4M | $20.24 | $117.38 | $230.49 |
+| gpt-5.6-luna | 1,430 | 14.3M | 104K | 43.4M | $20.29 | $117.45 | $231.06 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **97,647** | **560.8M** | **24.1M** | **9,383.1M** | **$6,314.30** | **$25,333.09** | **$19,437.96** |
+| **Total** | **97,652** | **560.8M** | **24.1M** | **9,383.1M** | **$6,314.35** | **$25,333.16** | **$19,438.53** |
 
-_9,968.1M total tokens processed. 94.1% cache hit rate._
+_9,968.2M total tokens processed. 94.1% cache hit rate._
 
-_$44,771.04 total saved ($25,333.09 caching + $19,437.96 model routing vs all-Opus)._
+_$44,771.69 total saved ($25,333.16 caching + $19,438.53 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -167,7 +167,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-19 09:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-19 10:18 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

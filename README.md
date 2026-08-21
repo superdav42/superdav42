@@ -72,7 +72,7 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 <!-- STATS-END -->
 
 ## Projects
-
+- **[Ultimate Multisite](https://github.com/ultimate-multisite/ultimate-multisite)** -- The Website as a Service plugin for WordPress Multisite.
 - **[wp-update-server-plugin](https://github.com/superdav42/wp-update-server-plugin)** -- Enable automatic updates for WordPress plugins sold as Woocommerce downloadable products
 - **[meeting-manager](https://github.com/superdav42/meeting-manager)** -- WordPress block for managing virtual meetings with Jitsi/JaaS integration, scheduling, and notifications
 - **[glotpress-rest-api](https://github.com/superdav42/glotpress-rest-api)** -- Adds REST API endpoints for GlotPress project management

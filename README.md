@@ -19,14 +19,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 13.7h | 48.4h | 493.8h | ~4717h* |
+| Screen time (Linux) | 13.7h | 48.4h | 507.5h | ~4718h* |
 | Interactive human attention | 7.0h | 31.3h | 100.1h | 100.1h |
 | Interactive AI generation | 10.2h | 88.9h | 295.8h | 295.8h |
 | Worker-classified human attention | 2.4h | 5.4h | 7.3h | 7.3h |
 | Worker/headless AI generation | 2.2h | 30.1h | 123.1h | 321.3h |
 | Additive observed work | 20.6h | 153.9h | 524.4h | 722.5h |
-| Interactive sessions | 97 | 467 | 1,109 | 1,109 |
-| Worker sessions | 138 | 832 | 2,331 | 4,150 |
+| Interactive sessions | 98 | 468 | 1,110 | 1,110 |
+| Worker sessions | 144 | 838 | 2,337 | 4,156 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -41,14 +41,14 @@ _AI session 365-day totals cover 44 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 38,450 | 234.3M | 9.2M | 4,716.3M | $4,003.62 | $12,734.06 | $9,024.73 |
-| gpt-5.6-terra | 19,111 | 117.7M | 5.2M | 1,761.1M | $714.48 | $4,755.13 | $3,842.03 |
-| gpt-5.5 | 14,728 | 71.0M | 3.9M | 891.4M | $478.95 | $2,406.85 | $2,160.17 |
-| gpt-5.6-luna | 1,641 | 17.0M | 105K | 37.9M | $4.52 | $102.45 | $256.35 |
-| **Total** | **73,930** | **440.1M** | **18.5M** | **7,406.8M** | **$5,201.57** | **$19,998.49** | **$15,283.29** |
+| gpt-5.6-terra | 19,111 | 117.7M | 5.2M | 1,761.1M | $714.49 | $4,755.13 | $3,842.05 |
+| gpt-5.5 | 14,709 | 70.9M | 3.9M | 890.7M | $478.43 | $2,405.02 | $2,157.85 |
+| gpt-5.6-luna | 1,647 | 17.1M | 106K | 37.9M | $4.53 | $102.48 | $257.25 |
+| **Total** | **73,917** | **440.1M** | **18.5M** | **7,406.1M** | **$5,201.07** | **$19,996.70** | **$15,281.88** |
 
-_7,865.5M total tokens processed. 94.2% cache hit rate._
+_7,864.8M total tokens processed. 94.2% cache hit rate._
 
-_$35,281.77 total saved ($19,998.49 caching + $15,283.29 model routing vs all-Opus)._
+_$35,278.58 total saved ($19,996.70 caching + $15,281.88 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -58,15 +58,15 @@ _Model savings are modest because ~94.2% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 42,928 | 260.4M | 10.2M | 5,163.1M | $4,410.58 | $13,940.63 | $9,936.71 |
 | gpt-5.5 | 32,679 | 153.3M | 8.0M | 2,199.7M | $1,108.89 | $5,939.40 | $4,960.07 |
-| gpt-5.6-terra | 26,446 | 170.8M | 7.2M | 2,570.3M | $1,032.57 | $6,939.83 | $5,570.39 |
+| gpt-5.6-terra | 26,447 | 170.8M | 7.2M | 2,570.3M | $1,032.60 | $6,939.83 | $5,570.57 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-luna | 1,710 | 17.6M | 116K | 44.3M | $4.80 | $119.80 | $272.42 |
+| gpt-5.6-luna | 1,716 | 17.7M | 117K | 44.3M | $4.81 | $119.84 | $273.33 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **103,914** | **607.7M** | **25.6M** | **9,979.4M** | **$6,575.00** | **$26,943.01** | **$20,809.99** |
+| **Total** | **103,921** | **607.8M** | **25.6M** | **9,979.4M** | **$6,575.04** | **$26,943.04** | **$20,811.07** |
 
-_10,612.9M total tokens processed. 94% cache hit rate._
+_10,613.0M total tokens processed. 94% cache hit rate._
 
-_$47,753.00 total saved ($26,943.01 caching + $20,809.99 model routing vs all-Opus)._
+_$47,754.11 total saved ($26,943.04 caching + $20,811.07 model routing vs all-Opus)._
 
 _Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -166,7 +166,7 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-22 09:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-22 10:19 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

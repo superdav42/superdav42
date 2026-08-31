@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 6.6h | 39.1h | 109.4h | 361.8h |
 | Additive observed work | 42.1h | 250.5h | 693.0h | 989.1h |
 | Interactive sessions | 92 | 418 | 1,327 | 1,561 |
-| Worker sessions | 228 | 1,038 | 2,964 | 5,301 |
+| Worker sessions | 235 | 1,045 | 2,971 | 5,308 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,33 +40,33 @@ _AI session 365-day totals cover 52 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 53,195 | 321.9M | 12.2M | 6,649.6M | $5,560.05 | $17,954.10 | $12,580.41 |
-| gpt-5.6-terra | 17,014 | 184.1M | 4.5M | 1,266.9M | $728.66 | $3,420.86 | $4,000.80 |
-| gpt-5.5 | 7,425 | 33.5M | 2.0M | 351.0M | $209.79 | $947.75 | $944.68 |
-| gpt-5.6-luna | 2,206 | 22.8M | 103K | 14.9M | $5.31 | $40.31 | $297.89 |
-| **Total** | **79,840** | **562.5M** | **18.9M** | **8,282.6M** | **$6,503.81** | **$22,363.02** | **$17,823.78** |
+| gpt-5.6-sol | 53,323 | 321.6M | 12.3M | 6,664.7M | $5,567.74 | $17,994.82 | $12,596.72 |
+| gpt-5.6-terra | 16,998 | 183.7M | 4.5M | 1,266.6M | $727.78 | $3,419.98 | $3,995.70 |
+| gpt-5.5 | 7,388 | 33.4M | 1.9M | 349.5M | $208.86 | $943.77 | $940.48 |
+| gpt-5.6-luna | 2,211 | 22.8M | 103K | 14.9M | $5.31 | $40.48 | $298.08 |
+| **Total** | **79,920** | **561.7M** | **18.9M** | **8,295.9M** | **$6,509.69** | **$22,399.06** | **$17,830.98** |
 
-_8,864.0M total tokens processed. 93.4% cache hit rate._
+_8,876.5M total tokens processed. 93.5% cache hit rate._
 
-_$40,186.80 total saved ($22,363.02 caching + $17,823.78 model routing vs all-Opus)._
+_$40,230.04 total saved ($22,399.06 caching + $17,830.98 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.4% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.5% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 62,153 | 374.8M | 14.2M | 7,647.9M | $6,427.78 | $20,649.37 | $14,532.84 |
-| gpt-5.6-terra | 33,379 | 295.6M | 8.9M | 3,047.9M | $1,418.83 | $8,229.41 | $7,744.39 |
+| gpt-5.6-sol | 62,415 | 375.8M | 14.3M | 7,683.5M | $6,453.72 | $20,745.61 | $14,591.75 |
+| gpt-5.6-terra | 33,389 | 295.7M | 8.9M | 3,048.2M | $1,419.16 | $8,230.36 | $7,745.74 |
 | gpt-5.5 | 33,505 | 157.1M | 8.1M | 2,234.9M | $1,130.66 | $6,034.43 | $5,057.79 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
-| gpt-5.6-luna | 2,564 | 24.4M | 152K | 49.8M | $6.42 | $134.49 | $362.08 |
+| gpt-5.6-luna | 2,570 | 24.4M | 152K | 49.8M | $6.43 | $134.66 | $362.43 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **131,752** | **857.5M** | **31.6M** | **12,982.4M** | **$9,001.85** | **$35,051.05** | **$27,767.50** |
+| **Total** | **132,030** | **858.7M** | **31.6M** | **13,018.4M** | **$9,028.13** | **$35,148.40** | **$27,828.11** |
 
-_13,871.6M total tokens processed. 93.6% cache hit rate._
+_13,908.9M total tokens processed. 93.6% cache hit rate._
 
-_$62,818.55 total saved ($35,051.05 caching + $27,767.50 model routing vs all-Opus)._
+_$62,976.51 total saved ($35,148.40 caching + $27,828.11 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -166,7 +166,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-31 04:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-31 05:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

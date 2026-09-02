@@ -25,8 +25,8 @@
 | Worker-classified human attention | 11.2h | 102.8h | 116.1h | 116.3h |
 | Worker/headless AI generation | 5.3h | 33.3h | 111.4h | 376.1h |
 | Additive observed work | 57.8h | 322.9h | 783.7h | 1,158.7h |
-| Interactive sessions | 82 | 393 | 1,328 | 1,674 |
-| Worker sessions | 143 | 877 | 2,994 | 5,566 |
+| Interactive sessions | 85 | 396 | 1,331 | 1,677 |
+| Worker sessions | 155 | 889 | 3,006 | 5,578 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,15 +40,15 @@ _AI session 365-day totals cover 55 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 61,964 | 365.4M | 14.0M | 7,784.0M | $6,437.15 | $21,017.06 | $14,568.17 |
-| gpt-5.6-terra | 18,548 | 204.2M | 4.7M | 1,334.7M | $789.04 | $3,603.73 | $4,339.27 |
-| gpt-5.5 | 6,028 | 26.7M | 1.5M | 260.5M | $161.79 | $703.50 | $727.77 |
-| gpt-5.6-luna | 2,241 | 22.3M | 104K | 15.9M | $5.25 | $43.00 | $293.87 |
-| **Total** | **88,781** | **618.7M** | **20.4M** | **9,395.2M** | **$7,393.23** | **$25,367.29** | **$19,929.09** |
+| gpt-5.6-sol | 62,043 | 366.0M | 14.0M | 7,793.0M | $6,445.54 | $21,041.34 | $14,587.80 |
+| gpt-5.6-terra | 18,775 | 206.4M | 4.8M | 1,349.0M | $797.98 | $3,642.46 | $4,387.12 |
+| gpt-5.5 | 6,012 | 26.6M | 1.5M | 259.8M | $161.31 | $701.51 | $725.61 |
+| gpt-5.6-luna | 2,239 | 22.3M | 104K | 15.9M | $5.24 | $43.00 | $293.53 |
+| **Total** | **89,069** | **621.6M** | **20.5M** | **9,417.8M** | **$7,410.07** | **$25,428.31** | **$19,994.07** |
 
-_10,034.5M total tokens processed. 93.6% cache hit rate._
+_10,060.0M total tokens processed. 93.6% cache hit rate._
 
-_$45,296.38 total saved ($25,367.29 caching + $19,929.09 model routing vs all-Opus)._
+_$45,422.38 total saved ($25,428.31 caching + $19,994.07 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -56,17 +56,17 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 72,077 | 426.5M | 16.2M | 8,936.8M | $7,436.77 | $24,129.48 | $16,820.96 |
-| gpt-5.6-terra | 35,878 | 322.5M | 9.4M | 3,200.9M | $1,515.89 | $8,642.69 | $8,281.35 |
+| gpt-5.6-sol | 72,156 | 427.2M | 16.3M | 8,945.8M | $7,445.15 | $24,153.75 | $16,840.58 |
+| gpt-5.6-terra | 36,105 | 324.8M | 9.5M | 3,215.3M | $1,524.83 | $8,681.42 | $8,329.19 |
 | gpt-5.5 | 33,648 | 157.8M | 8.1M | 2,240.3M | $1,134.19 | $6,048.86 | $5,073.76 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 2,695 | 25.2M | 158K | 50.8M | $6.63 | $137.39 | $373.17 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **144,449** | **937.6M** | **34.1M** | **14,430.8M** | **$10,111.64** | **$38,961.76** | **$30,619.63** |
+| **Total** | **144,755** | **940.6M** | **34.2M** | **14,454.1M** | **$10,128.96** | **$39,024.77** | **$30,687.10** |
 
-_15,402.7M total tokens processed. 93.7% cache hit rate._
+_15,429.0M total tokens processed. 93.7% cache hit rate._
 
-_$69,581.39 total saved ($38,961.76 caching + $30,619.63 model routing vs all-Opus)._
+_$69,711.87 total saved ($39,024.77 caching + $30,687.10 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -166,7 +166,7 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-02 10:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-02 11:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

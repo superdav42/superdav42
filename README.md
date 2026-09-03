@@ -25,8 +25,8 @@
 | Worker-classified human attention | 10.5h | 98.4h | 126.6h | 126.8h |
 | Worker/headless AI generation | 11.3h | 41.9h | 117.8h | 387.4h |
 | Additive observed work | 59.2h | 349.0h | 802.1h | 1,217.9h |
-| Interactive sessions | 95 | 420 | 1,372 | 1,753 |
-| Worker sessions | 235 | 948 | 3,109 | 5,768 |
+| Interactive sessions | 96 | 421 | 1,373 | 1,754 |
+| Worker sessions | 236 | 949 | 3,110 | 5,769 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,15 +40,15 @@ _AI session 365-day totals cover 56 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 64,007 | 377.4M | 14.3M | 8,085.6M | $6,662.28 | $21,831.34 | $15,095.38 |
-| gpt-5.6-terra | 20,644 | 231.7M | 5.2M | 1,485.3M | $886.90 | $4,010.36 | $4,880.06 |
-| gpt-5.5 | 5,320 | 23.3M | 1.3M | 222.0M | $139.50 | $599.57 | $626.96 |
-| gpt-5.6-luna | 2,263 | 22.5M | 105K | 16.1M | $5.29 | $43.57 | $295.83 |
-| **Total** | **92,234** | **655.0M** | **21.1M** | **9,809.1M** | **$7,693.97** | **$26,484.84** | **$20,898.23** |
+| gpt-5.6-sol | 63,331 | 372.7M | 14.2M | 8,014.1M | $6,595.63 | $21,638.31 | $14,945.69 |
+| gpt-5.6-terra | 20,678 | 231.8M | 5.2M | 1,487.0M | $887.54 | $4,015.12 | $4,883.67 |
+| gpt-5.5 | 5,306 | 23.2M | 1.3M | 221.5M | $139.12 | $598.17 | $625.23 |
+| gpt-5.6-luna | 2,250 | 22.2M | 103K | 15.2M | $5.22 | $41.18 | $291.92 |
+| **Total** | **91,565** | **650.2M** | **20.9M** | **9,738.0M** | **$7,627.51** | **$26,292.77** | **$20,746.52** |
 
-_10,485.3M total tokens processed. 93.6% cache hit rate._
+_10,409.2M total tokens processed. 93.6% cache hit rate._
 
-_$47,383.07 total saved ($26,484.84 caching + $20,898.23 model routing vs all-Opus)._
+_$47,039.29 total saved ($26,292.77 caching + $20,746.52 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -56,17 +56,17 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 77,048 | 454.1M | 17.4M | 9,575.4M | $7,955.27 | $25,853.61 | $17,989.46 |
-| gpt-5.6-terra | 38,280 | 351.0M | 10.0M | 3,374.8M | $1,622.15 | $9,111.97 | $8,866.61 |
+| gpt-5.6-sol | 77,432 | 455.5M | 17.5M | 9,626.3M | $7,992.45 | $25,991.12 | $18,073.00 |
+| gpt-5.6-terra | 38,314 | 351.1M | 10.0M | 3,376.5M | $1,622.79 | $9,116.72 | $8,870.21 |
 | gpt-5.5 | 33,750 | 158.2M | 8.2M | 2,243.6M | $1,136.42 | $6,057.86 | $5,083.63 |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | $16.91 | $0.00 | $67.65 |
 | gpt-5.6-luna | 2,776 | 26.1M | 161K | 51.1M | $6.83 | $138.12 | $384.28 |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | $1.25 | $3.35 | $2.74 |
-| **Total** | **152,005** | **994.9M** | **35.9M** | **15,246.8M** | **$10,738.83** | **$41,164.92** | **$32,394.37** |
+| **Total** | **152,423** | **996.4M** | **36.0M** | **15,299.4M** | **$10,776.65** | **$41,307.17** | **$32,481.51** |
 
-_16,277.8M total tokens processed. 93.7% cache hit rate._
+_16,332.1M total tokens processed. 93.7% cache hit rate._
 
-_$73,559.29 total saved ($41,164.92 caching + $32,394.37 model routing vs all-Opus)._
+_$73,788.68 total saved ($41,307.17 caching + $32,481.51 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -166,7 +166,7 @@ _Model savings are modest because ~93.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 16:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 17:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">

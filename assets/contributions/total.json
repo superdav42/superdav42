@@ -1,0 +1,885 @@
+{
+  "schema": "aidevops.total-contributions/v1",
+  "user": "superdav42",
+  "updated": "2026-09-06",
+  "through": "2026-09-05",
+  "metric": "GitHub contributionCalendar.totalContributions",
+  "total": 26211,
+  "months": [
+    {
+      "month": "2012-03",
+      "total": 1,
+      "cumulative": 1
+    },
+    {
+      "month": "2012-04",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2012-05",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2012-06",
+      "total": 3,
+      "cumulative": 4
+    },
+    {
+      "month": "2012-07",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2012-08",
+      "total": 3,
+      "cumulative": 7
+    },
+    {
+      "month": "2012-09",
+      "total": 0,
+      "cumulative": 7
+    },
+    {
+      "month": "2012-10",
+      "total": 2,
+      "cumulative": 9
+    },
+    {
+      "month": "2012-11",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2012-12",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-01",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-02",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-03",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-04",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-05",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2013-06",
+      "total": 1,
+      "cumulative": 10
+    },
+    {
+      "month": "2013-07",
+      "total": 5,
+      "cumulative": 15
+    },
+    {
+      "month": "2013-08",
+      "total": 0,
+      "cumulative": 15
+    },
+    {
+      "month": "2013-09",
+      "total": 1,
+      "cumulative": 16
+    },
+    {
+      "month": "2013-10",
+      "total": 3,
+      "cumulative": 19
+    },
+    {
+      "month": "2013-11",
+      "total": 4,
+      "cumulative": 23
+    },
+    {
+      "month": "2013-12",
+      "total": 0,
+      "cumulative": 23
+    },
+    {
+      "month": "2014-01",
+      "total": 4,
+      "cumulative": 27
+    },
+    {
+      "month": "2014-02",
+      "total": 0,
+      "cumulative": 27
+    },
+    {
+      "month": "2014-03",
+      "total": 8,
+      "cumulative": 35
+    },
+    {
+      "month": "2014-04",
+      "total": 7,
+      "cumulative": 42
+    },
+    {
+      "month": "2014-05",
+      "total": 2,
+      "cumulative": 44
+    },
+    {
+      "month": "2014-06",
+      "total": 23,
+      "cumulative": 67
+    },
+    {
+      "month": "2014-07",
+      "total": 62,
+      "cumulative": 129
+    },
+    {
+      "month": "2014-08",
+      "total": 56,
+      "cumulative": 185
+    },
+    {
+      "month": "2014-09",
+      "total": 24,
+      "cumulative": 209
+    },
+    {
+      "month": "2014-10",
+      "total": 51,
+      "cumulative": 260
+    },
+    {
+      "month": "2014-11",
+      "total": 23,
+      "cumulative": 283
+    },
+    {
+      "month": "2014-12",
+      "total": 60,
+      "cumulative": 343
+    },
+    {
+      "month": "2015-01",
+      "total": 50,
+      "cumulative": 393
+    },
+    {
+      "month": "2015-02",
+      "total": 69,
+      "cumulative": 462
+    },
+    {
+      "month": "2015-03",
+      "total": 39,
+      "cumulative": 501
+    },
+    {
+      "month": "2015-04",
+      "total": 44,
+      "cumulative": 545
+    },
+    {
+      "month": "2015-05",
+      "total": 39,
+      "cumulative": 584
+    },
+    {
+      "month": "2015-06",
+      "total": 63,
+      "cumulative": 647
+    },
+    {
+      "month": "2015-07",
+      "total": 50,
+      "cumulative": 697
+    },
+    {
+      "month": "2015-08",
+      "total": 40,
+      "cumulative": 737
+    },
+    {
+      "month": "2015-09",
+      "total": 57,
+      "cumulative": 794
+    },
+    {
+      "month": "2015-10",
+      "total": 53,
+      "cumulative": 847
+    },
+    {
+      "month": "2015-11",
+      "total": 36,
+      "cumulative": 883
+    },
+    {
+      "month": "2015-12",
+      "total": 35,
+      "cumulative": 918
+    },
+    {
+      "month": "2016-01",
+      "total": 11,
+      "cumulative": 929
+    },
+    {
+      "month": "2016-02",
+      "total": 54,
+      "cumulative": 983
+    },
+    {
+      "month": "2016-03",
+      "total": 48,
+      "cumulative": 1031
+    },
+    {
+      "month": "2016-04",
+      "total": 34,
+      "cumulative": 1065
+    },
+    {
+      "month": "2016-05",
+      "total": 42,
+      "cumulative": 1107
+    },
+    {
+      "month": "2016-06",
+      "total": 18,
+      "cumulative": 1125
+    },
+    {
+      "month": "2016-07",
+      "total": 41,
+      "cumulative": 1166
+    },
+    {
+      "month": "2016-08",
+      "total": 43,
+      "cumulative": 1209
+    },
+    {
+      "month": "2016-09",
+      "total": 43,
+      "cumulative": 1252
+    },
+    {
+      "month": "2016-10",
+      "total": 40,
+      "cumulative": 1292
+    },
+    {
+      "month": "2016-11",
+      "total": 47,
+      "cumulative": 1339
+    },
+    {
+      "month": "2016-12",
+      "total": 24,
+      "cumulative": 1363
+    },
+    {
+      "month": "2017-01",
+      "total": 18,
+      "cumulative": 1381
+    },
+    {
+      "month": "2017-02",
+      "total": 12,
+      "cumulative": 1393
+    },
+    {
+      "month": "2017-03",
+      "total": 58,
+      "cumulative": 1451
+    },
+    {
+      "month": "2017-04",
+      "total": 11,
+      "cumulative": 1462
+    },
+    {
+      "month": "2017-05",
+      "total": 14,
+      "cumulative": 1476
+    },
+    {
+      "month": "2017-06",
+      "total": 42,
+      "cumulative": 1518
+    },
+    {
+      "month": "2017-07",
+      "total": 22,
+      "cumulative": 1540
+    },
+    {
+      "month": "2017-08",
+      "total": 5,
+      "cumulative": 1545
+    },
+    {
+      "month": "2017-09",
+      "total": 19,
+      "cumulative": 1564
+    },
+    {
+      "month": "2017-10",
+      "total": 20,
+      "cumulative": 1584
+    },
+    {
+      "month": "2017-11",
+      "total": 66,
+      "cumulative": 1650
+    },
+    {
+      "month": "2017-12",
+      "total": 64,
+      "cumulative": 1714
+    },
+    {
+      "month": "2018-01",
+      "total": 36,
+      "cumulative": 1750
+    },
+    {
+      "month": "2018-02",
+      "total": 25,
+      "cumulative": 1775
+    },
+    {
+      "month": "2018-03",
+      "total": 10,
+      "cumulative": 1785
+    },
+    {
+      "month": "2018-04",
+      "total": 21,
+      "cumulative": 1806
+    },
+    {
+      "month": "2018-05",
+      "total": 13,
+      "cumulative": 1819
+    },
+    {
+      "month": "2018-06",
+      "total": 24,
+      "cumulative": 1843
+    },
+    {
+      "month": "2018-07",
+      "total": 17,
+      "cumulative": 1860
+    },
+    {
+      "month": "2018-08",
+      "total": 12,
+      "cumulative": 1872
+    },
+    {
+      "month": "2018-09",
+      "total": 88,
+      "cumulative": 1960
+    },
+    {
+      "month": "2018-10",
+      "total": 51,
+      "cumulative": 2011
+    },
+    {
+      "month": "2018-11",
+      "total": 49,
+      "cumulative": 2060
+    },
+    {
+      "month": "2018-12",
+      "total": 67,
+      "cumulative": 2127
+    },
+    {
+      "month": "2019-01",
+      "total": 114,
+      "cumulative": 2241
+    },
+    {
+      "month": "2019-02",
+      "total": 108,
+      "cumulative": 2349
+    },
+    {
+      "month": "2019-03",
+      "total": 110,
+      "cumulative": 2459
+    },
+    {
+      "month": "2019-04",
+      "total": 54,
+      "cumulative": 2513
+    },
+    {
+      "month": "2019-05",
+      "total": 91,
+      "cumulative": 2604
+    },
+    {
+      "month": "2019-06",
+      "total": 86,
+      "cumulative": 2690
+    },
+    {
+      "month": "2019-07",
+      "total": 52,
+      "cumulative": 2742
+    },
+    {
+      "month": "2019-08",
+      "total": 78,
+      "cumulative": 2820
+    },
+    {
+      "month": "2019-09",
+      "total": 67,
+      "cumulative": 2887
+    },
+    {
+      "month": "2019-10",
+      "total": 124,
+      "cumulative": 3011
+    },
+    {
+      "month": "2019-11",
+      "total": 128,
+      "cumulative": 3139
+    },
+    {
+      "month": "2019-12",
+      "total": 58,
+      "cumulative": 3197
+    },
+    {
+      "month": "2020-01",
+      "total": 54,
+      "cumulative": 3251
+    },
+    {
+      "month": "2020-02",
+      "total": 49,
+      "cumulative": 3300
+    },
+    {
+      "month": "2020-03",
+      "total": 89,
+      "cumulative": 3389
+    },
+    {
+      "month": "2020-04",
+      "total": 47,
+      "cumulative": 3436
+    },
+    {
+      "month": "2020-05",
+      "total": 13,
+      "cumulative": 3449
+    },
+    {
+      "month": "2020-06",
+      "total": 23,
+      "cumulative": 3472
+    },
+    {
+      "month": "2020-07",
+      "total": 4,
+      "cumulative": 3476
+    },
+    {
+      "month": "2020-08",
+      "total": 10,
+      "cumulative": 3486
+    },
+    {
+      "month": "2020-09",
+      "total": 14,
+      "cumulative": 3500
+    },
+    {
+      "month": "2020-10",
+      "total": 25,
+      "cumulative": 3525
+    },
+    {
+      "month": "2020-11",
+      "total": 17,
+      "cumulative": 3542
+    },
+    {
+      "month": "2020-12",
+      "total": 8,
+      "cumulative": 3550
+    },
+    {
+      "month": "2021-01",
+      "total": 24,
+      "cumulative": 3574
+    },
+    {
+      "month": "2021-02",
+      "total": 65,
+      "cumulative": 3639
+    },
+    {
+      "month": "2021-03",
+      "total": 65,
+      "cumulative": 3704
+    },
+    {
+      "month": "2021-04",
+      "total": 57,
+      "cumulative": 3761
+    },
+    {
+      "month": "2021-05",
+      "total": 41,
+      "cumulative": 3802
+    },
+    {
+      "month": "2021-06",
+      "total": 14,
+      "cumulative": 3816
+    },
+    {
+      "month": "2021-07",
+      "total": 3,
+      "cumulative": 3819
+    },
+    {
+      "month": "2021-08",
+      "total": 10,
+      "cumulative": 3829
+    },
+    {
+      "month": "2021-09",
+      "total": 35,
+      "cumulative": 3864
+    },
+    {
+      "month": "2021-10",
+      "total": 31,
+      "cumulative": 3895
+    },
+    {
+      "month": "2021-11",
+      "total": 23,
+      "cumulative": 3918
+    },
+    {
+      "month": "2021-12",
+      "total": 11,
+      "cumulative": 3929
+    },
+    {
+      "month": "2022-01",
+      "total": 14,
+      "cumulative": 3943
+    },
+    {
+      "month": "2022-02",
+      "total": 23,
+      "cumulative": 3966
+    },
+    {
+      "month": "2022-03",
+      "total": 63,
+      "cumulative": 4029
+    },
+    {
+      "month": "2022-04",
+      "total": 17,
+      "cumulative": 4046
+    },
+    {
+      "month": "2022-05",
+      "total": 33,
+      "cumulative": 4079
+    },
+    {
+      "month": "2022-06",
+      "total": 87,
+      "cumulative": 4166
+    },
+    {
+      "month": "2022-07",
+      "total": 39,
+      "cumulative": 4205
+    },
+    {
+      "month": "2022-08",
+      "total": 34,
+      "cumulative": 4239
+    },
+    {
+      "month": "2022-09",
+      "total": 45,
+      "cumulative": 4284
+    },
+    {
+      "month": "2022-10",
+      "total": 66,
+      "cumulative": 4350
+    },
+    {
+      "month": "2022-11",
+      "total": 65,
+      "cumulative": 4415
+    },
+    {
+      "month": "2022-12",
+      "total": 52,
+      "cumulative": 4467
+    },
+    {
+      "month": "2023-01",
+      "total": 54,
+      "cumulative": 4521
+    },
+    {
+      "month": "2023-02",
+      "total": 50,
+      "cumulative": 4571
+    },
+    {
+      "month": "2023-03",
+      "total": 56,
+      "cumulative": 4627
+    },
+    {
+      "month": "2023-04",
+      "total": 135,
+      "cumulative": 4762
+    },
+    {
+      "month": "2023-05",
+      "total": 20,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-06",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-07",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-08",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-09",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-10",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-11",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2023-12",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2024-01",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2024-02",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2024-03",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2024-04",
+      "total": 0,
+      "cumulative": 4782
+    },
+    {
+      "month": "2024-05",
+      "total": 127,
+      "cumulative": 4909
+    },
+    {
+      "month": "2024-06",
+      "total": 80,
+      "cumulative": 4989
+    },
+    {
+      "month": "2024-07",
+      "total": 35,
+      "cumulative": 5024
+    },
+    {
+      "month": "2024-08",
+      "total": 68,
+      "cumulative": 5092
+    },
+    {
+      "month": "2024-09",
+      "total": 105,
+      "cumulative": 5197
+    },
+    {
+      "month": "2024-10",
+      "total": 47,
+      "cumulative": 5244
+    },
+    {
+      "month": "2024-11",
+      "total": 46,
+      "cumulative": 5290
+    },
+    {
+      "month": "2024-12",
+      "total": 99,
+      "cumulative": 5389
+    },
+    {
+      "month": "2025-01",
+      "total": 95,
+      "cumulative": 5484
+    },
+    {
+      "month": "2025-02",
+      "total": 131,
+      "cumulative": 5615
+    },
+    {
+      "month": "2025-03",
+      "total": 63,
+      "cumulative": 5678
+    },
+    {
+      "month": "2025-04",
+      "total": 122,
+      "cumulative": 5800
+    },
+    {
+      "month": "2025-05",
+      "total": 72,
+      "cumulative": 5872
+    },
+    {
+      "month": "2025-06",
+      "total": 85,
+      "cumulative": 5957
+    },
+    {
+      "month": "2025-07",
+      "total": 181,
+      "cumulative": 6138
+    },
+    {
+      "month": "2025-08",
+      "total": 148,
+      "cumulative": 6286
+    },
+    {
+      "month": "2025-09",
+      "total": 140,
+      "cumulative": 6426
+    },
+    {
+      "month": "2025-10",
+      "total": 71,
+      "cumulative": 6497
+    },
+    {
+      "month": "2025-11",
+      "total": 89,
+      "cumulative": 6586
+    },
+    {
+      "month": "2025-12",
+      "total": 140,
+      "cumulative": 6726
+    },
+    {
+      "month": "2026-01",
+      "total": 131,
+      "cumulative": 6857
+    },
+    {
+      "month": "2026-02",
+      "total": 347,
+      "cumulative": 7204
+    },
+    {
+      "month": "2026-03",
+      "total": 2529,
+      "cumulative": 9733
+    },
+    {
+      "month": "2026-04",
+      "total": 4571,
+      "cumulative": 14304
+    },
+    {
+      "month": "2026-05",
+      "total": 4163,
+      "cumulative": 18467
+    },
+    {
+      "month": "2026-06",
+      "total": 2184,
+      "cumulative": 20651
+    },
+    {
+      "month": "2026-07",
+      "total": 1934,
+      "cumulative": 22585
+    },
+    {
+      "month": "2026-08",
+      "total": 2893,
+      "cumulative": 25478
+    },
+    {
+      "month": "2026-09",
+      "total": 733,
+      "cumulative": 26211
+    }
+  ]
+}

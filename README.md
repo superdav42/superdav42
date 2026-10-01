@@ -25,8 +25,8 @@
 | Worker-classified human attention | 1.2h | 5.4h | 37.4h | 164.3h |
 | Worker/headless AI generation | 1.0h | 11.3h | 88.5h | 475.9h |
 | Additive observed work | 24.2h | 160.6h | 738.7h | 1,956.7h |
-| Interactive sessions | 83 | 315 | 1,248 | 2,957 |
-| Worker sessions | 127 | 693 | 2,763 | 8,457 |
+| Interactive sessions | 85 | 317 | 1,250 | 2,959 |
+| Worker sessions | 135 | 701 | 2,771 | 8,465 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,38 +40,38 @@ _AI session 365-day totals cover 84 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 53,251 | 237.0M | 11.5M | 6,801.6M | 96.6% | 309 | 375.2h |
-| gpt-5.6-terra | 21,282 | 185.8M | 4.5M | 1,579.8M | 89.5% | 2,404 | 106.7h |
+| gpt-5.6-sol | 52,992 | 235.6M | 11.4M | 6,772.5M | 96.6% | 305 | 373.4h |
+| gpt-5.6-terra | 21,381 | 186.2M | 4.5M | 1,589.0M | 89.5% | 2,414 | 107.3h |
 | gpt-6-astra | 8,751 | 40.3M | 2.5M | 1,694.6M | 97.7% | 37 | 92.6h |
-| gpt-6-sol | 7,753 | 30.3M | 1.5M | 2,552.4M | 98.8% | 29 | 40.8h |
+| gpt-6-sol | 7,907 | 30.6M | 1.6M | 2,591.1M | 98.8% | 29 | 41.6h |
 | gpt-5.5 | 2,759 | 8.5M | 543K | 130.2M | 93.8% | 115 | 10.0h |
-| gpt-6.1-sol | 2,426 | 11.9M | 514K | 619.5M | 98.1% | 21 | 24.7h |
+| gpt-6.1-sol | 2,524 | 12.1M | 539K | 653.4M | 98.2% | 21 | 26.1h |
 | gpt-5.6-luna | 1,529 | 16.5M | 88K | 14.0M | 45.9% | 1,311 | 3.8h |
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
-| **Total** | **97,794** | **530.7M** | **21.3M** | **13,396.1M** | **96.2%** | **4,207** | **653.8h** |
+| **Total** | **97,886** | **530.2M** | **21.3M** | **13,448.7M** | **96.2%** | **4,213** | **654.8h** |
 
-_13,948.2M total tokens processed. 96.2% cache hit rate._
+_14,000.3M total tokens processed. 96.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 122,656 | 649.6M | 27.2M | 15,397.3M | 96.0% | 859 | 874.8h |
-| gpt-5.6-terra | 55,701 | 494.4M | 13.7M | 4,687.2M | 90.5% | 4,823 | 301.8h |
+| gpt-5.6-sol | 122,667 | 649.7M | 27.2M | 15,398.5M | 96.0% | 859 | 874.8h |
+| gpt-5.6-terra | 55,800 | 494.8M | 13.7M | 4,696.4M | 90.5% | 4,833 | 302.4h |
 | gpt-5.5 | 36,407 | 166.3M | 8.7M | 2,370.5M | 93.4% | 1,365 | 161.7h |
 | gpt-6-astra | 8,751 | 40.3M | 2.5M | 1,694.6M | 97.7% | 37 | 92.6h |
-| gpt-6-sol | 7,753 | 30.3M | 1.5M | 2,552.4M | 98.8% | 29 | 40.8h |
+| gpt-6-sol | 7,907 | 30.6M | 1.6M | 2,591.1M | 98.8% | 29 | 41.6h |
 | gpt-5.6-luna | 4,190 | 41.4M | 245K | 64.7M | 60.9% | 3,539 | 10.3h |
-| gpt-6.1-sol | 2,426 | 11.9M | 514K | 619.5M | 98.1% | 21 | 24.7h |
+| gpt-6.1-sol | 2,524 | 12.1M | 539K | 653.4M | 98.2% | 21 | 26.1h |
 | claude-sonnet-4-6 | 481 | 0 | 0 | 0 | 0.0% | 481 | 2.2h |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | 0.0% | 2 | 2.4h |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | 95.9% | 1 | 0.5h |
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **238,566** | **1,440.3M** | **54.6M** | **27,392.0M** | **95%** | **11,108** | **1,511.8h** |
+| **Total** | **238,928** | **1,441.1M** | **54.7M** | **27,474.9M** | **95%** | **11,118** | **1,514.6h** |
 
-_28,887.0M total tokens processed. 95% cache hit rate._
+_28,970.8M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -169,7 +169,7 @@ _28,887.0M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-01 20:31 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-01 21:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

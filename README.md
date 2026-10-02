@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.8h | 5.4h | 34.8h | 165.1h |
 | Worker/headless AI generation | 2.7h | 13.2h | 85.8h | 479.7h |
 | Additive observed work | 49.3h | 173.5h | 735.3h | 2,005.7h |
-| Interactive sessions | 91 | 312 | 1,241 | 2,996 |
-| Worker sessions | 175 | 723 | 2,743 | 8,575 |
+| Interactive sessions | 93 | 314 | 1,243 | 2,998 |
+| Worker sessions | 180 | 728 | 2,748 | 8,580 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,28 +40,28 @@ _AI session 365-day totals cover 85 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 48,511 | 213.7M | 10.4M | 6,194.8M | 96.7% | 271 | 335.3h |
-| gpt-5.6-terra | 19,241 | 161.3M | 4.0M | 1,440.3M | 89.9% | 2,412 | 96.6h |
+| gpt-5.6-sol | 48,255 | 212.6M | 10.4M | 6,160.2M | 96.7% | 270 | 333.5h |
+| gpt-5.6-terra | 19,004 | 159.0M | 4.0M | 1,419.5M | 89.9% | 2,405 | 95.5h |
 | gpt-6-sol | 9,055 | 35.6M | 1.8M | 3,060.0M | 98.8% | 29 | 49.8h |
-| gpt-6-astra | 8,754 | 40.3M | 2.5M | 1,694.6M | 97.7% | 40 | 92.6h |
-| gpt-6.1-sol | 5,215 | 24.0M | 1.0M | 1,282.1M | 98.2% | 35 | 57.1h |
+| gpt-6-astra | 8,755 | 40.4M | 2.5M | 1,694.6M | 97.7% | 41 | 92.7h |
+| gpt-6.1-sol | 5,349 | 24.2M | 1.1M | 1,326.9M | 98.2% | 35 | 59.3h |
 | gpt-5.5 | 2,775 | 8.5M | 545K | 131.9M | 93.9% | 115 | 10.1h |
-| gpt-5.6-luna | 1,465 | 15.9M | 85K | 13.7M | 46.3% | 1,247 | 3.6h |
+| gpt-5.6-luna | 1,461 | 15.8M | 85K | 13.7M | 46.4% | 1,243 | 3.6h |
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
-| **Total** | **95,059** | **499.7M** | **20.6M** | **13,821.2M** | **96.5%** | **4,130** | **645.2h** |
+| **Total** | **94,697** | **496.5M** | **20.6M** | **13,810.7M** | **96.5%** | **4,119** | **644.5h** |
 
-_14,341.7M total tokens processed. 96.5% cache hit rate._
+_14,327.9M total tokens processed. 96.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 122,703 | 650.4M | 27.2M | 15,402.9M | 95.9% | 860 | 875.0h |
-| gpt-5.6-terra | 56,219 | 498.4M | 13.8M | 4,719.9M | 90.4% | 4,958 | 304.1h |
+| gpt-5.6-terra | 56,225 | 498.5M | 13.8M | 4,719.9M | 90.4% | 4,964 | 304.1h |
 | gpt-5.5 | 36,482 | 166.5M | 8.7M | 2,374.0M | 93.4% | 1,368 | 161.9h |
 | gpt-6-sol | 9,055 | 35.6M | 1.8M | 3,060.0M | 98.8% | 29 | 49.8h |
-| gpt-6-astra | 8,754 | 40.3M | 2.5M | 1,694.6M | 97.7% | 40 | 92.6h |
-| gpt-6.1-sol | 5,215 | 24.0M | 1.0M | 1,282.1M | 98.2% | 35 | 57.1h |
+| gpt-6-astra | 8,755 | 40.4M | 2.5M | 1,694.6M | 97.7% | 41 | 92.7h |
+| gpt-6.1-sol | 5,349 | 24.2M | 1.1M | 1,326.9M | 98.2% | 35 | 59.3h |
 | gpt-5.6-luna | 4,190 | 41.4M | 245K | 64.7M | 60.9% | 3,539 | 10.3h |
 | claude-sonnet-4-6 | 481 | 0 | 0 | 0 | 0.0% | 481 | 2.2h |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | 0.0% | 2 | 2.4h |
@@ -69,9 +69,9 @@ _14,341.7M total tokens processed. 96.5% cache hit rate._
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **243,300** | **1,462.8M** | **55.6M** | **28,603.8M** | **95.1%** | **11,264** | **1,556.0h** |
+| **Total** | **243,441** | **1,463.1M** | **55.6M** | **28,648.7M** | **95.1%** | **11,271** | **1,558.2h** |
 
-_30,122.2M total tokens processed. 95.1% cache hit rate._
+_30,167.5M total tokens processed. 95.1% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -169,7 +169,7 @@ _30,122.2M total tokens processed. 95.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-02 22:31 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-02 23:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

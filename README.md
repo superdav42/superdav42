@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.8h | 5.4h | 34.8h | 165.1h |
 | Worker/headless AI generation | 2.7h | 13.2h | 85.8h | 479.7h |
 | Additive observed work | 49.3h | 173.5h | 735.3h | 2,005.7h |
-| Interactive sessions | 88 | 309 | 1,238 | 2,993 |
-| Worker sessions | 162 | 710 | 2,731 | 8,563 |
+| Interactive sessions | 89 | 310 | 1,239 | 2,994 |
+| Worker sessions | 171 | 719 | 2,739 | 8,571 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,28 +40,28 @@ _AI session 365-day totals cover 85 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 49,040 | 217.1M | 10.6M | 6,260.1M | 96.6% | 275 | 340.5h |
-| gpt-5.6-terra | 19,588 | 168.7M | 4.1M | 1,461.2M | 89.6% | 2,414 | 98.3h |
-| gpt-6-sol | 8,974 | 35.5M | 1.8M | 3,025.5M | 98.8% | 29 | 49.2h |
+| gpt-5.6-sol | 48,988 | 216.9M | 10.5M | 6,253.2M | 96.6% | 275 | 339.3h |
+| gpt-5.6-terra | 19,654 | 168.8M | 4.1M | 1,467.7M | 89.7% | 2,420 | 98.7h |
+| gpt-6-sol | 9,024 | 35.6M | 1.8M | 3,045.9M | 98.8% | 29 | 49.6h |
 | gpt-6-astra | 8,754 | 40.3M | 2.5M | 1,694.6M | 97.7% | 40 | 92.6h |
-| gpt-6.1-sol | 4,424 | 22.6M | 920K | 1,123.2M | 98.0% | 35 | 51.9h |
+| gpt-6.1-sol | 4,962 | 23.4M | 1.0M | 1,231.6M | 98.1% | 35 | 55.0h |
 | gpt-5.5 | 2,775 | 8.5M | 545K | 131.9M | 93.9% | 115 | 10.1h |
-| gpt-5.6-luna | 1,466 | 15.9M | 85K | 13.7M | 46.3% | 1,248 | 3.6h |
+| gpt-5.6-luna | 1,465 | 15.9M | 85K | 13.7M | 46.3% | 1,247 | 3.6h |
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
-| **Total** | **95,064** | **509.1M** | **20.6M** | **13,714.1M** | **96.4%** | **4,137** | **646.3h** |
+| **Total** | **95,665** | **509.9M** | **20.8M** | **13,842.5M** | **96.4%** | **4,142** | **648.9h** |
 
-_14,244.0M total tokens processed. 96.4% cache hit rate._
+_14,373.2M total tokens processed. 96.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 122,703 | 650.4M | 27.2M | 15,402.9M | 95.9% | 860 | 875.0h |
-| gpt-5.6-terra | 56,120 | 497.6M | 13.7M | 4,712.1M | 90.4% | 4,943 | 303.6h |
+| gpt-5.6-terra | 56,213 | 498.3M | 13.8M | 4,719.8M | 90.4% | 4,952 | 304.1h |
 | gpt-5.5 | 36,482 | 166.5M | 8.7M | 2,374.0M | 93.4% | 1,368 | 161.9h |
-| gpt-6-sol | 8,974 | 35.5M | 1.8M | 3,025.5M | 98.8% | 29 | 49.2h |
+| gpt-6-sol | 9,024 | 35.6M | 1.8M | 3,045.9M | 98.8% | 29 | 49.6h |
 | gpt-6-astra | 8,754 | 40.3M | 2.5M | 1,694.6M | 97.7% | 40 | 92.6h |
-| gpt-6.1-sol | 4,424 | 22.6M | 920K | 1,123.2M | 98.0% | 35 | 51.9h |
+| gpt-6.1-sol | 4,962 | 23.4M | 1.0M | 1,231.6M | 98.1% | 35 | 55.0h |
 | gpt-5.6-luna | 4,190 | 41.4M | 245K | 64.7M | 60.9% | 3,539 | 10.3h |
 | claude-sonnet-4-6 | 481 | 0 | 0 | 0 | 0.0% | 481 | 2.2h |
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | 0.0% | 2 | 2.4h |
@@ -69,9 +69,9 @@ _14,244.0M total tokens processed. 96.4% cache hit rate._
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 95.8% | 1 | 0.1h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **242,329** | **1,460.5M** | **55.3M** | **28,402.6M** | **95.1%** | **11,249** | **1,549.8h** |
+| **Total** | **243,010** | **1,462.0M** | **55.5M** | **28,539.1M** | **95.1%** | **11,258** | **1,553.7h** |
 
-_29,918.6M total tokens processed. 95.1% cache hit rate._
+_30,056.7M total tokens processed. 95.1% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -169,7 +169,7 @@ _29,918.6M total tokens processed. 95.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-02 19:31 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-02 20:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

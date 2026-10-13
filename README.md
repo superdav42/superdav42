@@ -40,20 +40,20 @@ _AI session 365-day totals cover 96 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 48,648 | 195.3M | 9.4M | 6,350.1M | 0 | 97.0% | 168 | 272.1h |
+| gpt-5.6-sol | 48,563 | 195.1M | 9.4M | 6,343.3M | 0 | 97.0% | 167 | 271.7h |
 | gpt-6.1-sol | 25,684 | 118.2M | 5.8M | 6,624.7M | 0 | 98.2% | 100 | 249.6h |
-| gpt-5.6-terra | 16,018 | 124.2M | 3.0M | 1,214.8M | 0 | 90.7% | 2,749 | 75.7h |
+| gpt-5.6-terra | 16,007 | 124.1M | 3.0M | 1,214.3M | 0 | 90.7% | 2,745 | 75.7h |
 | claude-opus-5-5 | 12,581 | 26K | 6.5M | 2,714.8M | 106.9M | 96.2% | 13 | 59.6h |
 | gpt-6-sol | 9,158 | 36.2M | 1.8M | 3,114.7M | 0 | 98.8% | 29 | 50.6h |
-| gpt-6-astra | 4,948 | 25.1M | 1.5M | 952.3M | 0 | 97.4% | 42 | 51.4h |
+| gpt-6-astra | 4,908 | 25.0M | 1.5M | 940.1M | 0 | 97.4% | 42 | 50.5h |
 | gpt-5.5 | 2,530 | 7.7M | 458K | 124.9M | 0 | 94.2% | 106 | 7.7h |
 | gpt-5.6-luna | 685 | 6.9M | 45K | 9.6M | 0 | 58.2% | 549 | 1.8h |
 | gpt-6-luna | 43 | 154K | 5K | 3.5M | 0 | 95.8% | 1 | 0.1h |
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
 | claude-sonnet-5-5 | 3 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **120,304** | **514.1M** | **28.9M** | **21,109.8M** | **107.0M** | **97.1%** | **3,744** | **768.6h** |
+| **Total** | **120,168** | **513.7M** | **28.8M** | **21,090.4M** | **107.0M** | **97.1%** | **3,739** | **767.3h** |
 
-_21,760.0M total tokens processed. 97.1% cache hit rate._
+_21,740.1M total tokens processed. 97.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -175,7 +175,7 @@ _41,994.2M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-13 17:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-13 18:33 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

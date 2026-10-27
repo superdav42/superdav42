@@ -42,19 +42,19 @@ _AI session 365-day totals cover 109 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-5-5 | 166,127 | 1.2M | 88.3M | 52,327.4M | 2,498.4M | 95.4% | 75 | 998.6h |
 | gpt-6.1-sol | 137,232 | 434.0M | 31.8M | 24,950.8M | 0 | 98.3% | 248 | 508.1h |
-| gpt-5.6-sol | 68,234 | 228.4M | 13.9M | 9,514.1M | 0 | 97.7% | 171 | 273.8h |
+| gpt-5.6-sol | 68,134 | 227.8M | 13.9M | 9,503.5M | 0 | 97.7% | 170 | 273.4h |
 | claude-sonnet-5-5 | 25,260 | 150K | 13.5M | 3,767.1M | 217.7M | 94.5% | 61 | 142.4h |
-| gpt-5.6-terra | 14,241 | 99.9M | 2.6M | 1,069.9M | 0 | 91.5% | 2,438 | 65.4h |
+| gpt-5.6-terra | 14,214 | 99.6M | 2.6M | 1,068.2M | 0 | 91.5% | 2,430 | 65.3h |
 | gpt-6-astra | 6,593 | 21.2M | 1.5M | 693.1M | 0 | 97.0% | 32 | 14.9h |
-| gpt-6-sol | 2,949 | 16.3M | 658K | 1,038.7M | 0 | 98.5% | 14 | 18.0h |
+| gpt-6-sol | 2,926 | 16.2M | 653K | 1,037.8M | 0 | 98.5% | 13 | 17.9h |
 | gpt-5.5 | 1,683 | 5.5M | 283K | 93.4M | 0 | 94.4% | 65 | 5.3h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
 | gpt-5.6-luna | 138 | 373K | 20K | 8.0M | 0 | 95.5% | 2 | 0.5h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
-| **Total** | **424,041** | **807.2M** | **154.1M** | **93,847.1M** | **2,739.0M** | **96.4%** | **3,072** | **2,036.8h** |
+| **Total** | **423,891** | **806.2M** | **154.1M** | **93,834.0M** | **2,739.0M** | **96.4%** | **3,062** | **2,036.1h** |
 
-_97,547.6M total tokens processed. 96.4% cache hit rate._
+_97,533.4M total tokens processed. 96.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -178,7 +178,7 @@ _124,353.3M total tokens processed. 96% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-27 04:53 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-27 05:53 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

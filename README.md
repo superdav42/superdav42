@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 5.3h | 82.4h | 250.5h | 730.1h |
 | Additive observed work | 5.3h | 87.3h | 565.6h | 2,571.3h |
 | Interactive sessions | 5 | 22 | 496 | 3,453 |
-| Worker sessions | 179 | 646 | 2,432 | 10,941 |
+| Worker sessions | 183 | 650 | 2,436 | 10,945 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -40,11 +40,11 @@ _AI session 365-day totals cover 113 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 223,423 | 2.8M | 120.5M | 71,972.1M | 3,446.7M | 95.4% | 86 | 1,299.8h |
-| gpt-6.1-sol | 187,960 | 606.9M | 44.1M | 33,965.9M | 0 | 98.2% | 277 | 596.5h |
+| claude-opus-5-5 | 223,742 | 2.8M | 120.6M | 72,038.1M | 3,450.6M | 95.4% | 86 | 1,300.9h |
+| gpt-6.1-sol | 190,704 | 610.6M | 45.0M | 34,544.8M | 0 | 98.3% | 281 | 602.9h |
 | gpt-5.6-sol | 65,666 | 219.8M | 13.4M | 9,072.2M | 0 | 97.6% | 373 | 252.9h |
 | claude-sonnet-5-5 | 32,352 | 165K | 17.4M | 5,232.1M | 357.5M | 93.6% | 110 | 202.2h |
-| gpt-5.6-terra | 12,573 | 84.5M | 2.3M | 940.0M | 0 | 91.8% | 2,017 | 59.2h |
+| gpt-5.6-terra | 12,572 | 84.4M | 2.3M | 940.0M | 0 | 91.8% | 2,016 | 59.2h |
 | gpt-6-astra | 6,298 | 20.2M | 1.4M | 653.4M | 0 | 97.0% | 25 | 12.8h |
 | gpt-6.1-terra | 1,793 | 3.0M | 176K | 185.7M | 0 | 98.4% | 2 | 6.9h |
 | gpt-6-sol | 1,781 | 8.1M | 403K | 762.7M | 0 | 98.9% | 7 | 12.5h |
@@ -53,16 +53,16 @@ _AI session 365-day totals cover 113 days of local assistant session history (no
 | gpt-5.6-luna | 138 | 373K | 20K | 8.0M | 0 | 95.5% | 2 | 0.5h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
-| **Total** | **534,911** | **950.5M** | **201.4M** | **123,251.5M** | **3,827.1M** | **96.3%** | **2,917** | **2,457.4h** |
+| **Total** | **537,973** | **954.3M** | **202.4M** | **123,896.4M** | **3,830.9M** | **96.3%** | **2,920** | **2,464.9h** |
 
-_128,230.7M total tokens processed. 96.3% cache hit rate._
+_128,884.1M total tokens processed. 96.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 223,423 | 2.8M | 120.5M | 71,972.1M | 3,446.7M | 95.4% | 86 | 1,299.8h |
-| gpt-6.1-sol | 189,343 | 615.1M | 44.5M | 34,366.7M | 0 | 98.2% | 286 | 613.2h |
+| claude-opus-5-5 | 223,742 | 2.8M | 120.6M | 72,038.1M | 3,450.6M | 95.4% | 86 | 1,300.9h |
+| gpt-6.1-sol | 192,131 | 618.9M | 45.3M | 34,969.0M | 0 | 98.3% | 290 | 620.7h |
 | gpt-5.6-sol | 187,499 | 866.1M | 40.5M | 24,357.7M | 0 | 96.6% | 1,222 | 1,122.2h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
 | gpt-5.5 | 37,639 | 170.4M | 8.9M | 2,437.2M | 0 | 93.5% | 1,413 | 165.1h |
@@ -80,9 +80,9 @@ _128,230.7M total tokens processed. 96.3% cache hit rate._
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **770,753** | **2,378.5M** | **255.6M** | **150,085.9M** | **3,827.1M** | **96%** | **13,912** | **3,950.6h** |
+| **Total** | **773,860** | **2,382.3M** | **256.5M** | **150,754.2M** | **3,830.9M** | **96%** | **13,916** | **3,959.2h** |
 
-_156,547.2M total tokens processed. 96% cache hit rate._
+_157,224.1M total tokens processed. 96% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -180,7 +180,7 @@ _156,547.2M total tokens processed. 96% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-31 04:53 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-31 05:55 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

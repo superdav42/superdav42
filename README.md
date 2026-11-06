@@ -19,16 +19,16 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 0.6h | 3.2h | 3.2h | ~584h* |
+| Screen time (Linux) | 0.6h | 3.2h | 3.2h | unavailable |
 | Interactive human attention | 0.0h | 0.0h | 23.2h | 372.8h |
 | Interactive AI generation | 0.0h | 0.5h | 55.9h | 1319.1h |
 | Worker-classified human attention | 0.0h | 1.7h | 19.1h | 187.2h |
 | Worker/headless AI generation | 33.7h | 117.5h | 351.6h | 847.6h |
 | Additive observed work | 33.7h | 119.7h | 449.0h | 2,691.0h |
 | Interactive sessions | 4 | 31 | 228 | 3,480 |
-| Worker sessions | 177 | 793 | 2,583 | 11,636 |
+| Worker sessions | 185 | 801 | 2,591 | 11,644 |
 
-_Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok. *365-day estimate uses observed calendar coverage._
+_Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (1.6 of 28 days sampled); earlier days are not counted._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
@@ -40,31 +40,31 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 455,497 | 1,663.9M | 109.2M | 83,333.3M | 0 | 98.0% | 384 | 1,241.7h |
+| gpt-6.1-sol | 458,708 | 1,673.9M | 109.7M | 83,998.0M | 0 | 98.0% | 386 | 1,247.2h |
 | claude-opus-5-5 | 377,112 | 8.4M | 197.8M | 116,788.2M | 5,914.4M | 95.2% | 112 | 2,336.3h |
-| gpt-5.6-sol | 69,589 | 227.0M | 14.0M | 9,509.1M | 0 | 97.7% | 701 | 276.2h |
-| claude-sonnet-5-5 | 34,690 | 170K | 18.1M | 5,417.4M | 368.4M | 93.6% | 225 | 209.5h |
-| gpt-5.6-terra | 10,512 | 64.1M | 2.0M | 824.7M | 0 | 92.8% | 1,382 | 50.9h |
+| gpt-5.6-sol | 69,727 | 227.2M | 14.0M | 9,527.6M | 0 | 97.7% | 702 | 277.0h |
+| claude-sonnet-5-5 | 34,714 | 170K | 18.1M | 5,418.4M | 368.5M | 93.6% | 228 | 209.7h |
+| gpt-5.6-terra | 10,494 | 63.9M | 2.0M | 823.9M | 0 | 92.8% | 1,376 | 50.8h |
 | gpt-6-astra | 7,093 | 23.0M | 1.6M | 712.6M | 0 | 96.9% | 17 | 14.6h |
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
-| gpt-5.5 | 721 | 2.4M | 113K | 41.7M | 0 | 94.5% | 28 | 2.0h |
+| gpt-5.5 | 720 | 2.4M | 113K | 41.7M | 0 | 94.5% | 27 | 2.0h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
-| **Total** | **959,664** | **1,996.2M** | **344.7M** | **217,281.8M** | **6,305.7M** | **96.3%** | **2,811** | **4,149.3h** |
+| **Total** | **963,018** | **2,006.3M** | **345.2M** | **217,965.4M** | **6,305.8M** | **96.3%** | **2,811** | **4,155.8h** |
 
-_225,928.5M total tokens processed. 96.3% cache hit rate._
+_226,622.8M total tokens processed. 96.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 469,818 | 1,725.6M | 112.4M | 87,322.4M | 0 | 98.1% | 439 | 1,400.4h |
+| gpt-6.1-sol | 473,079 | 1,736.0M | 113.0M | 87,996.9M | 0 | 98.1% | 441 | 1,407.3h |
 | claude-opus-5-5 | 377,112 | 8.4M | 197.8M | 116,788.2M | 5,914.4M | 95.2% | 112 | 2,336.3h |
-| gpt-5.6-sol | 192,321 | 878.2M | 41.2M | 24,913.4M | 0 | 96.6% | 1,560 | 1,151.4h |
+| gpt-5.6-sol | 192,460 | 878.4M | 41.2M | 24,932.1M | 0 | 96.6% | 1,561 | 1,152.2h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
 | gpt-5.5 | 37,656 | 170.4M | 8.9M | 2,437.5M | 0 | 93.5% | 1,415 | 165.1h |
-| claude-sonnet-5-5 | 34,690 | 170K | 18.1M | 5,417.4M | 368.4M | 93.6% | 225 | 209.5h |
+| claude-sonnet-5-5 | 34,714 | 170K | 18.1M | 5,418.4M | 368.5M | 93.6% | 228 | 209.7h |
 | gpt-6-astra | 15,854 | 63.5M | 4.1M | 2,407.3M | 0 | 97.4% | 64 | 107.3h |
 | gpt-6-sol | 9,158 | 36.2M | 1.8M | 3,114.7M | 0 | 98.8% | 29 | 50.6h |
 | gpt-5.6-luna | 4,190 | 41.4M | 245K | 64.7M | 0 | 60.9% | 3,539 | 10.3h |
@@ -78,28 +78,40 @@ _225,928.5M total tokens processed. 96.3% cache hit rate._
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **1,213,973** | **3,513.6M** | **402.7M** | **248,742.8M** | **6,305.7M** | **96.2%** | **14,539** | **5,814.1h** |
+| **Total** | **1,217,397** | **3,524.2M** | **403.3M** | **249,437.1M** | **6,305.8M** | **96.2%** | **14,545** | **5,822.0h** |
 
-_258,965.0M total tokens processed. 96.2% cache hit rate._
+_259,670.6M total tokens processed. 96.2% cache hit rate._
 <!-- STATS-END -->
 
+<!-- PROJECTS-START -->
 ## Projects
-- **[Ultimate Multisite](https://github.com/ultimate-multisite/ultimate-multisite)** -- The Website as a Service plugin for WordPress Multisite.
-- **[wp-update-server-plugin](https://github.com/superdav42/wp-update-server-plugin)** -- Enable automatic updates for WordPress plugins sold as Woocommerce downloadable products
-- **[meeting-manager](https://github.com/superdav42/meeting-manager)** -- WordPress block for managing virtual meetings with Jitsi/JaaS integration, scheduling, and notifications
-- **[glotpress-rest-api](https://github.com/superdav42/glotpress-rest-api)** -- Adds REST API endpoints for GlotPress project management
-- **[magento-image-usage-calculator](https://github.com/superdav42/magento-image-usage-calculator)** -- Usage calculator to make it possible to purchase images or artwork at various resolutions.
-- **[do-test](https://github.com/superdav42/do-test)** -- No description
-- **[magento-image-products](https://github.com/superdav42/magento-image-products)** -- New product type for Magento 2 which makes it easy to sell images, photographs and artwork.
+
 - **[magento-image-quality](https://github.com/superdav42/magento-image-quality)** -- Improve image quality of product images in Magento 2
+- **[magento-image-products](https://github.com/superdav42/magento-image-products)** -- New product type for Magento 2 which makes it easy to sell images, photographs and artwork.
+- **[gp-reject-feedback](https://github.com/superdav42/gp-reject-feedback)** -- Plugin for GlotPress which allow reviewers to provide feedback for translators
 - **[kalidokit-react](https://github.com/superdav42/kalidokit-react)** -- Kalidokit example using react and three js fiber
+- **[magento-image-usage-calculator](https://github.com/superdav42/magento-image-usage-calculator)** -- Usage calculator to make it possible to purchase images or artwork at various resolutions.
+- **[TwigOptimizations](https://github.com/superdav42/TwigOptimizations)** -- Twig extensions which enable some experimental optimizations on compiled code
 - **[gutenberg-standalone](https://github.com/superdav42/gutenberg-standalone)** -- Gutenberg without WordPress
+- **[liberty-live](https://github.com/superdav42/liberty-live)** -- 24/7 AI-powered live streaming personality - local LLM + 3D avatar talk show
+- **[ajaxify-comments-docs](https://github.com/superdav42/ajaxify-comments-docs)** -- No description
+- **[animation-vs](https://github.com/superdav42/animation-vs)** -- A free, open-source stick-figure arena duel built with Godot
+- **[daniels-game](https://github.com/superdav42/daniels-game)** -- No description
+- **[datauri-pages](https://github.com/superdav42/datauri-pages)** -- pages
+- **[do-test](https://github.com/superdav42/do-test)** -- No description
+- **[glotpress-rest-api](https://github.com/superdav42/glotpress-rest-api)** -- Adds REST API endpoints for GlotPress project management
+- **[gunz](https://github.com/superdav42/gunz)** -- Browser-based mobile-first 3D tank combat game
+- **[henrys-boats](https://github.com/superdav42/henrys-boats)** -- No description
+- **[james-game](https://github.com/superdav42/james-game)** -- No description
+- **[james-tower](https://github.com/superdav42/james-tower)** -- No description
+- **[meeting-manager](https://github.com/superdav42/meeting-manager)** -- WordPress block for managing virtual meetings with Jitsi/JaaS integration, scheduling, and notifications
 - **[perf-html-editor](https://github.com/superdav42/perf-html-editor)** -- Created with CodeSandbox
 - **[php-pm-wordpress](https://github.com/superdav42/php-pm-wordpress)** -- Experimental way to run WordPress with the PHP Process Manager
 - **[psp](https://github.com/superdav42/psp)** -- Sample wordpress install with bedrock and moodle
-- **[gp-reject-feedback](https://github.com/superdav42/gp-reject-feedback)** -- Plugin for GlotPress which allow reviewers to provide feedback for translators
-- **[TwigOptimizations](https://github.com/superdav42/TwigOptimizations)** -- Twig extensions which enable some experimental optimizations on compiled code
-- **[datauri-pages](https://github.com/superdav42/datauri-pages)** -- pages
+- **[tanks-game-test](https://github.com/superdav42/tanks-game-test)** -- No description
+- **[timmys-game](https://github.com/superdav42/timmys-game)** -- No description
+<!-- PROJECTS-END -->
+
 ## Contributions
 
 - **[docket-cache](https://github.com/nawawi/docket-cache)** -- A persistent object cache stored as a plain PHP code, accelerates caching with OPcache backend.
@@ -178,7 +190,7 @@ _258,965.0M total tokens processed. 96.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-06 17:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-06 18:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

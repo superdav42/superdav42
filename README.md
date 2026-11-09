@@ -25,8 +25,8 @@
 | Worker-classified human attention | 0.0h | 1.7h | 12.6h | 187.3h |
 | Worker/headless AI generation | 17.2h | 127.3h | 387.7h | 889.3h |
 | Additive observed work | 25.2h | 141.6h | 433.2h | 2,744.9h |
-| Interactive sessions | 5 | 30 | 121 | 3,485 |
-| Worker sessions | 131 | 768 | 2,610 | 11,896 |
+| Interactive sessions | 8 | 33 | 124 | 3,488 |
+| Worker sessions | 132 | 769 | 2,611 | 11,897 |
 
 _Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (4.6 of 28 days sampled); earlier days are not counted._
 
@@ -40,11 +40,11 @@ _AI session 365-day totals cover 123 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 499,742 | 1,914.6M | 118.7M | 89,145.0M | 0 | 97.9% | 393 | 1,314.0h |
+| gpt-6.1-sol | 499,751 | 1,914.7M | 118.7M | 89,137.7M | 0 | 97.9% | 394 | 1,313.7h |
 | claude-opus-5-5 | 440,869 | 10.1M | 233.3M | 136,267.9M | 7,254.4M | 94.9% | 128 | 2,756.3h |
 | gpt-5.6-sol | 70,763 | 230.9M | 14.1M | 9,652.5M | 0 | 97.7% | 847 | 286.7h |
 | claude-sonnet-5-5 | 38,047 | 178K | 19.8M | 5,670.1M | 430.6M | 92.9% | 254 | 228.9h |
-| gpt-5.6-terra | 7,436 | 45.9M | 1.4M | 564.6M | 0 | 92.5% | 1,030 | 36.8h |
+| gpt-5.6-terra | 7,430 | 45.8M | 1.4M | 564.6M | 0 | 92.5% | 1,024 | 36.7h |
 | gpt-6-astra | 6,936 | 22.6M | 1.5M | 695.1M | 0 | 96.8% | 18 | 13.9h |
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
@@ -52,15 +52,15 @@ _AI session 365-day totals cover 123 days of local assistant session history (no
 | gpt-6-luna | 104 | 868K | 624 | 858K | 0 | 49.7% | 1 | 0.0h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
-| **Total** | **1,068,633** | **2,233.4M** | **390.8M** | **242,663.2M** | **7,707.9M** | **96.1%** | **2,644** | **4,655.3h** |
+| **Total** | **1,068,636** | **2,233.3M** | **390.8M** | **242,655.9M** | **7,707.9M** | **96.1%** | **2,639** | **4,655.0h** |
 
-_252,995.4M total tokens processed. 96.1% cache hit rate._
+_252,988.0M total tokens processed. 96.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 523,316 | 2,023.0M | 124.1M | 95,343.2M | 0 | 97.9% | 485 | 1,551.8h |
+| gpt-6.1-sol | 523,338 | 2,023.1M | 124.1M | 95,344.1M | 0 | 97.9% | 486 | 1,551.9h |
 | claude-opus-5-5 | 440,869 | 10.1M | 233.3M | 136,267.9M | 7,254.4M | 94.9% | 128 | 2,756.3h |
 | gpt-5.6-sol | 194,384 | 884.9M | 41.5M | 25,164.3M | 0 | 96.6% | 1,715 | 1,165.1h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
@@ -79,9 +79,9 @@ _252,995.4M total tokens processed. 96.1% cache hit rate._
 | claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **1,336,755** | **3,820.4M** | **452.0M** | **276,747.8M** | **7,707.9M** | **96%** | **14,784** | **6,418.6h** |
+| **Total** | **1,336,777** | **3,820.5M** | **452.0M** | **276,748.7M** | **7,707.9M** | **96%** | **14,785** | **6,418.6h** |
 
-_288,728.3M total tokens processed. 96% cache hit rate._
+_288,729.3M total tokens processed. 96% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -191,7 +191,7 @@ _288,728.3M total tokens processed. 96% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-09 16:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-09 17:43 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

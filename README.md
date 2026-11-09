@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 17.2h | 127.3h | 387.7h | 889.3h |
 | Additive observed work | 25.2h | 141.6h | 433.2h | 2,744.9h |
 | Interactive sessions | 8 | 33 | 124 | 3,488 |
-| Worker sessions | 132 | 769 | 2,611 | 11,897 |
+| Worker sessions | 137 | 774 | 2,616 | 11,902 |
 
 _Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (4.6 of 28 days sampled); earlier days are not counted._
 
@@ -40,10 +40,10 @@ _AI session 365-day totals cover 123 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 499,751 | 1,914.7M | 118.7M | 89,137.7M | 0 | 97.9% | 394 | 1,313.7h |
-| claude-opus-5-5 | 440,869 | 10.1M | 233.3M | 136,267.9M | 7,254.4M | 94.9% | 128 | 2,756.3h |
-| gpt-5.6-sol | 70,763 | 230.9M | 14.1M | 9,652.5M | 0 | 97.7% | 847 | 286.7h |
-| claude-sonnet-5-5 | 38,047 | 178K | 19.8M | 5,670.1M | 430.6M | 92.9% | 254 | 228.9h |
+| gpt-6.1-sol | 501,084 | 1,917.1M | 118.8M | 89,194.0M | 0 | 97.9% | 395 | 1,314.6h |
+| claude-opus-5-5 | 441,596 | 10.2M | 233.6M | 136,451.2M | 7,270.0M | 94.9% | 128 | 2,757.3h |
+| gpt-5.6-sol | 70,760 | 230.9M | 14.1M | 9,652.5M | 0 | 97.7% | 846 | 286.7h |
+| claude-sonnet-5-5 | 38,822 | 884K | 20.2M | 5,745.0M | 440.1M | 92.9% | 257 | 233.6h |
 | gpt-5.6-terra | 7,430 | 45.8M | 1.4M | 564.6M | 0 | 92.5% | 1,024 | 36.7h |
 | gpt-6-astra | 6,936 | 22.6M | 1.5M | 695.1M | 0 | 96.8% | 18 | 13.9h |
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
@@ -51,20 +51,20 @@ _AI session 365-day totals cover 123 days of local assistant session history (no
 | gpt-5.5 | 286 | 899K | 42K | 12.2M | 0 | 93.1% | 12 | 0.7h |
 | gpt-6-luna | 104 | 868K | 624 | 858K | 0 | 49.7% | 1 | 0.0h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
-| claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
-| **Total** | **1,068,636** | **2,233.3M** | **390.8M** | **242,655.9M** | **7,707.9M** | **96.1%** | **2,639** | **4,655.0h** |
+| claude-haiku-4-5 | 8 | 24 | 37 | 0 | 170K | 0.0% | 3 | 0.0h |
+| **Total** | **1,071,470** | **2,236.5M** | **391.6M** | **242,970.4M** | **7,733.0M** | **96.1%** | **2,643** | **4,661.6h** |
 
-_252,988.0M total tokens processed. 96.1% cache hit rate._
+_253,331.7M total tokens processed. 96.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 523,338 | 2,023.1M | 124.1M | 95,344.1M | 0 | 97.9% | 486 | 1,551.9h |
-| claude-opus-5-5 | 440,869 | 10.1M | 233.3M | 136,267.9M | 7,254.4M | 94.9% | 128 | 2,756.3h |
+| gpt-6.1-sol | 524,671 | 2,025.5M | 124.2M | 95,400.5M | 0 | 97.9% | 487 | 1,552.7h |
+| claude-opus-5-5 | 441,596 | 10.2M | 233.6M | 136,451.2M | 7,270.0M | 94.9% | 128 | 2,757.3h |
 | gpt-5.6-sol | 194,384 | 884.9M | 41.5M | 25,164.3M | 0 | 96.6% | 1,715 | 1,165.1h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
-| claude-sonnet-5-5 | 38,047 | 178K | 19.8M | 5,670.1M | 430.6M | 92.9% | 254 | 228.9h |
+| claude-sonnet-5-5 | 38,822 | 884K | 20.2M | 5,745.0M | 440.1M | 92.9% | 257 | 233.6h |
 | gpt-5.5 | 37,656 | 170.4M | 8.9M | 2,437.5M | 0 | 93.5% | 1,415 | 165.1h |
 | gpt-6-astra | 15,857 | 63.5M | 4.1M | 2,407.3M | 0 | 97.4% | 67 | 107.3h |
 | gpt-6-sol | 9,158 | 36.2M | 1.8M | 3,114.7M | 0 | 98.8% | 29 | 50.6h |
@@ -76,41 +76,68 @@ _252,988.0M total tokens processed. 96.1% cache hit rate._
 | qwen3.6-100k:latest | 102 | 5.4M | 46K | 0 | 0 | 0.0% | 2 | 2.4h |
 | gpt-5.3-codex-spark | 49 | 75K | 3K | 1.7M | 0 | 95.9% | 1 | 0.5h |
 | claude-haiku-5-5 | 13 | 52 | 52 | 0 | 359K | 0.0% | 1 | 0.0h |
-| claude-haiku-4-5 | 6 | 18 | 27 | 0 | 126K | 0.0% | 2 | 0.0h |
+| claude-haiku-4-5 | 8 | 24 | 37 | 0 | 170K | 0.0% | 3 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **1,336,777** | **3,820.5M** | **452.0M** | **276,748.7M** | **7,707.9M** | **96%** | **14,785** | **6,418.6h** |
+| **Total** | **1,339,614** | **3,823.8M** | **452.8M** | **277,063.2M** | **7,733.0M** | **96%** | **14,790** | **6,425.2h** |
 
-_288,729.3M total tokens processed. 96% cache hit rate._
+_289,073.0M total tokens processed. 96% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
 ## Projects
 
-- **[magento-image-quality](https://github.com/superdav42/magento-image-quality)** -- Improve image quality of product images in Magento 2
-- **[magento-image-products](https://github.com/superdav42/magento-image-products)** -- New product type for Magento 2 which makes it easy to sell images, photographs and artwork.
-- **[gp-reject-feedback](https://github.com/superdav42/gp-reject-feedback)** -- Plugin for GlotPress which allow reviewers to provide feedback for translators
-- **[kalidokit-react](https://github.com/superdav42/kalidokit-react)** -- Kalidokit example using react and three js fiber
-- **[magento-image-usage-calculator](https://github.com/superdav42/magento-image-usage-calculator)** -- Usage calculator to make it possible to purchase images or artwork at various resolutions.
-- **[TwigOptimizations](https://github.com/superdav42/TwigOptimizations)** -- Twig extensions which enable some experimental optimizations on compiled code
-- **[gutenberg-standalone](https://github.com/superdav42/gutenberg-standalone)** -- Gutenberg without WordPress
-- **[liberty-live](https://github.com/superdav42/liberty-live)** -- 24/7 AI-powered live streaming personality - local LLM + 3D avatar talk show
+- **[ai-provider-for-anthropic-max](https://github.com/Ultimate-Multisite/ai-provider-for-anthropic-max)** (Ultimate-Multisite) -- Anthropic provider for the WordPress AI Client using Claude Max OAuth tokens with account pool rotation.
 - **[ajaxify-comments-docs](https://github.com/superdav42/ajaxify-comments-docs)** -- No description
 - **[animation-vs](https://github.com/superdav42/animation-vs)** -- A free, open-source stick-figure arena duel built with Godot
+- **[cli-abilities-bridge](https://github.com/Ultimate-Multisite/cli-abilities-bridge)** (Ultimate-Multisite) -- WP-CLI Abilities Bridge — discovers WP-CLI commands and system CLI tools, exposes them as WordPress abilities
+- **[cron-service-plugin](https://github.com/Ultimate-Multisite/cron-service-plugin)** (Ultimate-Multisite) -- External Cron Service for Ultimate Multisite - WordPress plugin with AMPHP worker for reliable cron execution
 - **[daniels-game](https://github.com/superdav42/daniels-game)** -- No description
 - **[datauri-pages](https://github.com/superdav42/datauri-pages)** -- pages
 - **[do-test](https://github.com/superdav42/do-test)** -- No description
+- **[docs](https://github.com/Ultimate-Multisite/docs)** (Ultimate-Multisite) -- Documentation site for Ultimate Multisite
 - **[glotpress-rest-api](https://github.com/superdav42/glotpress-rest-api)** -- Adds REST API endpoints for GlotPress project management
+- **[gp-reject-feedback](https://github.com/superdav42/gp-reject-feedback)** -- Plugin for GlotPress which allow reviewers to provide feedback for translators
+- **[gratis-ai-feedback](https://github.com/Ultimate-Multisite/gratis-ai-feedback)** (Ultimate-Multisite) -- Feedback collection and issue triage service for Gratis AI Agent
 - **[gunz](https://github.com/superdav42/gunz)** -- Browser-based mobile-first 3D tank combat game
+- **[gutenberg-standalone](https://github.com/superdav42/gutenberg-standalone)** -- Gutenberg without WordPress
 - **[henrys-boats](https://github.com/superdav42/henrys-boats)** -- No description
+- **[hook-profiler](https://github.com/Ultimate-Multisite/hook-profiler)** (Ultimate-Multisite) -- A powerful WordPress plugin that profiles every action and filter hook to identify performance bottlenecks and measure execution time by plugin.
 - **[james-game](https://github.com/superdav42/james-game)** -- No description
 - **[james-tower](https://github.com/superdav42/james-tower)** -- No description
+- **[kalidokit-react](https://github.com/superdav42/kalidokit-react)** -- Kalidokit example using react and three js fiber
+- **[liberty-live](https://github.com/superdav42/liberty-live)** -- 24/7 AI-powered live streaming personality - local LLM + 3D avatar talk show
+- **[magento-image-products](https://github.com/superdav42/magento-image-products)** -- New product type for Magento 2 which makes it easy to sell images, photographs and artwork.
+- **[magento-image-quality](https://github.com/superdav42/magento-image-quality)** -- Improve image quality of product images in Magento 2
+- **[magento-image-usage-calculator](https://github.com/superdav42/magento-image-usage-calculator)** -- Usage calculator to make it possible to purchase images or artwork at various resolutions.
 - **[meeting-manager](https://github.com/superdav42/meeting-manager)** -- WordPress block for managing virtual meetings with Jitsi/JaaS integration, scheduling, and notifications
+- **[omni-platform-newsletter](https://github.com/Ultimate-Multisite/omni-platform-newsletter)** (Ultimate-Multisite) -- Write-once WordPress newsletters for responsive web, email, and duplex print/PDF output.
+- **[opcache-preload-generator](https://github.com/Ultimate-Multisite/opcache-preload-generator)** (Ultimate-Multisite) -- WordPress plugin that generates OPcache preload files based on runtime statistics
 - **[perf-html-editor](https://github.com/superdav42/perf-html-editor)** -- Created with CodeSandbox
 - **[php-pm-wordpress](https://github.com/superdav42/php-pm-wordpress)** -- Experimental way to run WordPress with the PHP Process Manager
 - **[psp](https://github.com/superdav42/psp)** -- Sample wordpress install with bedrock and moodle
+- **[request-handler](https://github.com/WordPress-PSR/request-handler)** (WordPress-PSR) -- PSR-15 Request Handler for WordPress
+- **[simple-comment-editing](https://github.com/Ultimate-Multisite/simple-comment-editing)** (Ultimate-Multisite) -- Simple Comment Editing for WordPress
+- **[superdav-ai-agent](https://github.com/Ultimate-Multisite/superdav-ai-agent)** (Ultimate-Multisite) -- AI Agent for WordPress — agentic AI loop with tool-calling via the Abilities API
+- **[superdav-ai-language-packs](https://github.com/Ultimate-Multisite/superdav-ai-language-packs)** (Ultimate-Multisite) -- Translates WordPress Plugins and themes with the best AI models automatically.
+- **[superdav-ai-newsletter](https://github.com/Ultimate-Multisite/superdav-ai-newsletter)** (Ultimate-Multisite) -- AI Newsletter — per-recipient and per-segment AI personalization for the Newsletter plugin and others. Self-hosted, uses the WordPress AI Client WP 7.0+.
+- **[swoole](https://github.com/WordPress-PSR/swoole)** (WordPress-PSR) -- Try to run WordPress in swoole
 - **[tanks-game-test](https://github.com/superdav42/tanks-game-test)** -- No description
+- **[the-perfect-wp-cron](https://github.com/Ultimate-Multisite/the-perfect-wp-cron)** (Ultimate-Multisite) -- Event-loop job queue for WordPress using Workerman
 - **[timmys-game](https://github.com/superdav42/timmys-game)** -- No description
+- **[TwigOptimizations](https://github.com/superdav42/TwigOptimizations)** -- Twig extensions which enable some experimental optimizations on compiled code
+- **[ultimate-ai-connector-compatible-endpoints](https://github.com/Ultimate-Multisite/ultimate-ai-connector-compatible-endpoints)** (Ultimate-Multisite) -- Connects WordPress 7.0's AI Client to any OpenAI-compatible endpoint Ollama, LM Studio, OpenRouter, etc.
+- **[ultimate-ai-connector-webllm](https://github.com/Ultimate-Multisite/ultimate-ai-connector-webllm)** (Ultimate-Multisite) -- WordPress 7.0 AI provider that runs LLM inference entirely in the user's browser via WebGPU + WebLLM. The site brokers requests so any logged-in device can use the desktop GPU.
+- **[ultimate-ai-translation-server](https://github.com/Ultimate-Multisite/ultimate-ai-translation-server)** (Ultimate-Multisite) -- Server plugin for the Ultimate AI Plugins Translations for WordPress plugins and themes.
+- **[ultimate-multisite](https://github.com/Ultimate-Multisite/ultimate-multisite)** (Ultimate-Multisite) -- Website as a service plugin for WordPress Multisite
+- **[ultimate-multisite-ai-provider-sharing](https://github.com/Ultimate-Multisite/ultimate-multisite-ai-provider-sharing)** (Ultimate-Multisite) -- Share main-site AI providers across WordPress multisite subsites
+- **[ultimate-multisite-fluentaffiliate](https://github.com/Ultimate-Multisite/ultimate-multisite-fluentaffiliate)** (Ultimate-Multisite) -- Ultimate Multisite: FluentAffiliate Integration — recurring commission tracking for WaaS memberships
+- **[ultimate-multisite-mailster](https://github.com/Ultimate-Multisite/ultimate-multisite-mailster)** (Ultimate-Multisite) -- Mailster email marketing integration addon for Ultimate Multisite
+- **[ultimate-multisite-newsletter](https://github.com/Ultimate-Multisite/ultimate-multisite-newsletter)** (Ultimate-Multisite) -- Umbrella addon for self-hosted newsletter providers The Newsletter Plugin, MailPoet, FluentCRM, Groundhogg, Noptin — Ultimate Multisite checkout integration
+- **[ultimate-update-server-plugin](https://github.com/Ultimate-Multisite/ultimate-update-server-plugin)** (Ultimate-Multisite) -- Enable automatic updates for WordPress plugins sold as Woocommerce downloadable products
+- **[wordpress-translated-tuned-llm](https://github.com/Ultimate-Multisite/wordpress-translated-tuned-llm)** (Ultimate-Multisite) -- Fine tune models for translating plugins
+- **[wp-ajaxify-comments](https://github.com/Ultimate-Multisite/wp-ajaxify-comments)** (Ultimate-Multisite) -- Welcome to Ajaxify Comments
+- **[wp-image-editor-gmagick](https://github.com/Ultimate-Multisite/wp-image-editor-gmagick)** (Ultimate-Multisite) -- WordPress image editor using Gmagick GraphicsMagick - faster alternative to Imagick with WebP/AVIF support
 <!-- PROJECTS-END -->
 
 ## Contributions
@@ -191,7 +218,7 @@ _288,729.3M total tokens processed. 96% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-09 17:43 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-09 18:44 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

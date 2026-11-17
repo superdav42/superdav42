@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 11.1h | 60.6h | 346.9h | 960.1h |
 | Additive observed work | 11.2h | 62.4h | 370.1h | 2,818.0h |
 | Interactive sessions | 5 | 13 | 88 | 3,500 |
-| Worker sessions | 112 | 642 | 2,535 | 12,582 |
+| Worker sessions | 115 | 645 | 2,538 | 12,585 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (12.6 of 28 days sampled); earlier days are not counted. *365-day estimate uses observed calendar coverage._
 
@@ -42,7 +42,7 @@ _AI session 365-day totals cover 131 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-5-5 | 488,548 | 11.9M | 265.6M | 142,492.7M | 8,189.3M | 94.6% | 125 | 3,117.2h |
 | gpt-6.1-sol | 470,452 | 1,807.1M | 111.4M | 84,874.6M | 0 | 97.9% | 343 | 1,232.3h |
-| claude-sonnet-5-5 | 158,114 | 2.7M | 88.9M | 36,241.5M | 2,437.8M | 93.7% | 792 | 1,021.4h |
+| claude-sonnet-5-5 | 158,220 | 2.7M | 89.0M | 36,292.6M | 2,445.1M | 93.7% | 794 | 1,021.5h |
 | gpt-5.6-sol | 23,308 | 67.2M | 4.8M | 3,133.5M | 0 | 97.9% | 809 | 95.5h |
 | big-pickle | 7,282 | 32.4M | 1.8M | 511.7M | 0 | 94.0% | 3 | 24.9h |
 | gpt-6-astra | 5,298 | 12.0M | 1.1M | 547.3M | 0 | 97.9% | 12 | 9.7h |
@@ -56,9 +56,9 @@ _AI session 365-day totals cover 131 days of local assistant session history (no
 | gpt-5.5 | 17 | 45K | 1K | 303K | 0 | 86.9% | 2 | 0.0h |
 | claude-sonnet-4-6 | 6 | 10 | 1K | 121K | 62K | 66.1% | 2 | 0.0h |
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **1,159,358** | **1,954.3M** | **475.9M** | **268,558.5M** | **10,649.9M** | **95.5%** | **2,474** | **5,526.7h** |
+| **Total** | **1,159,464** | **1,954.3M** | **475.9M** | **268,609.6M** | **10,657.3M** | **95.5%** | **2,476** | **5,526.8h** |
 
-_281,638.8M total tokens processed. 95.5% cache hit rate._
+_281,697.2M total tokens processed. 95.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -67,7 +67,7 @@ _281,638.8M total tokens processed. 95.5% cache hit rate._
 | claude-opus-5-5 | 563,693 | 12.4M | 304.3M | 164,248.0M | 9,267.0M | 94.7% | 159 | 3,572.7h |
 | gpt-6.1-sol | 526,458 | 2,036.7M | 124.5M | 95,769.5M | 0 | 97.9% | 489 | 1,555.7h |
 | gpt-5.6-sol | 194,804 | 886.2M | 41.6M | 25,188.4M | 0 | 96.6% | 1,734 | 1,166.4h |
-| claude-sonnet-5-5 | 162,236 | 2.7M | 91.0M | 36,679.1M | 2,464.3M | 93.7% | 802 | 1,041.1h |
+| claude-sonnet-5-5 | 162,342 | 2.7M | 91.0M | 36,730.2M | 2,471.7M | 93.7% | 804 | 1,041.2h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
 | gpt-5.5 | 37,656 | 170.4M | 8.9M | 2,437.5M | 0 | 93.5% | 1,415 | 165.1h |
 | gpt-6-astra | 15,857 | 63.5M | 4.1M | 2,407.3M | 0 | 97.4% | 67 | 107.3h |
@@ -87,9 +87,9 @@ _281,638.8M total tokens processed. 95.5% cache hit rate._
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **1,594,748** | **3,874.4M** | **596.4M** | **336,699.8M** | **11,754.6M** | **95.6%** | **15,404** | **8,077.7h** |
+| **Total** | **1,594,854** | **3,874.4M** | **596.4M** | **336,750.9M** | **11,762.0M** | **95.6%** | **15,406** | **8,077.9h** |
 
-_352,925.4M total tokens processed. 95.6% cache hit rate._
+_352,983.8M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -226,7 +226,7 @@ _352,925.4M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-17 16:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-17 17:45 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

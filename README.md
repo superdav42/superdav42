@@ -48,7 +48,7 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 | gpt-6-astra | 5,299 | 12.0M | 1.1M | 547.3M | 0 | 97.9% | 13 | 9.8h |
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
-| gpt-5.6-terra | 986 | 7.1M | 162K | 56.5M | 0 | 88.8% | 290 | 4.0h |
+| gpt-5.6-terra | 972 | 7.0M | 159K | 55.5M | 0 | 88.8% | 289 | 3.9h |
 | gpt-6-luna | 104 | 868K | 624 | 858K | 0 | 49.7% | 1 | 0.0h |
 | qwen3.5:9b | 75 | 1.3M | 6K | 223K | 0 | 14.4% | 2 | 0.4h |
 | qwen3.5-9b | 29 | 251K | 2K | 324K | 0 | 56.3% | 2 | 0.0h |
@@ -56,9 +56,9 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 | gpt-5.5 | 17 | 45K | 1K | 303K | 0 | 86.9% | 2 | 0.0h |
 | claude-sonnet-4-6 | 6 | 10 | 1K | 121K | 62K | 66.1% | 2 | 0.0h |
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **1,198,659** | **1,906.3M** | **510.8M** | **279,615.0M** | **11,168.6M** | **95.5%** | **2,478** | **5,900.1h** |
+| **Total** | **1,198,645** | **1,906.3M** | **510.7M** | **279,614.0M** | **11,168.6M** | **95.5%** | **2,477** | **5,900.0h** |
 
-_293,200.8M total tokens processed. 95.5% cache hit rate._
+_293,199.8M total tokens processed. 95.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -226,7 +226,7 @@ _374,905.7M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-19 09:43 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-19 10:43 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

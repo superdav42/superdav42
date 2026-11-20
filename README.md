@@ -19,36 +19,36 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Input activity (Linux) | 1.7h | 4.6h | 11.4h | ~285h* |
+| Input activity (Linux) | 0.5h | 4.5h | 11.9h | ~278h* |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 372.8h |
-| Interactive AI generation | 0.0h | 0.1h | 15.1h | 1331.4h |
+| Interactive AI generation | 0.0h | 0.1h | 15.1h | 1331.5h |
 | Worker-classified human attention | 0.0h | 1.7h | 6.7h | 189.5h |
-| Worker/headless AI generation | 18.8h | 71.3h | 351.9h | 986.0h |
-| Additive observed work | 18.8h | 73.1h | 373.7h | 2,843.9h |
-| Interactive sessions | 4 | 14 | 75 | 3,503 |
-| Worker sessions | 216 | 704 | 2,634 | 12,835 |
+| Worker/headless AI generation | 16.3h | 72.5h | 354.6h | 1002.3h |
+| Additive observed work | 16.3h | 74.3h | 376.4h | 2,860.3h |
+| Interactive sessions | 3 | 13 | 73 | 3,503 |
+| Worker sessions | 110 | 630 | 2,545 | 12,839 |
 
-_Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (14.6 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
+_Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (15.6 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 133 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 134 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 514,219 | 14.3M | 279.4M | 144,880.4M | 8,352.2M | 94.5% | 132 | 3,352.4h |
-| gpt-6.1-sol | 450,178 | 1,748.7M | 105.7M | 81,262.9M | 0 | 97.9% | 303 | 1,187.1h |
-| claude-sonnet-5-5 | 226,712 | 3.8M | 136.3M | 56,016.0M | 3,326.2M | 94.4% | 994 | 1,437.9h |
+| claude-opus-5-5 | 525,964 | 14.6M | 284.2M | 146,824.3M | 8,465.8M | 94.5% | 133 | 3,418.8h |
+| gpt-6.1-sol | 450,098 | 1,747.4M | 105.7M | 81,252.5M | 0 | 97.9% | 302 | 1,187.0h |
+| claude-sonnet-5-5 | 226,715 | 3.8M | 136.3M | 56,016.0M | 3,326.3M | 94.4% | 997 | 1,437.9h |
 | gpt-5.6-sol | 16,351 | 43.2M | 2.9M | 1,934.0M | 0 | 97.8% | 819 | 75.6h |
 | big-pickle | 7,282 | 32.4M | 1.8M | 511.7M | 0 | 94.0% | 3 | 24.9h |
 | gpt-6-astra | 5,299 | 12.0M | 1.1M | 547.3M | 0 | 97.9% | 13 | 9.8h |
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
-| gpt-5.6-terra | 693 | 5.5M | 114K | 41.5M | 0 | 88.3% | 238 | 2.8h |
+| gpt-5.6-terra | 654 | 5.3M | 102K | 39.1M | 0 | 87.9% | 234 | 2.6h |
 | gpt-6-luna | 104 | 868K | 624 | 858K | 0 | 49.7% | 1 | 0.0h |
 | qwen3.5:9b | 75 | 1.3M | 6K | 223K | 0 | 14.4% | 2 | 0.4h |
 | qwen3.5-9b | 29 | 251K | 2K | 324K | 0 | 56.3% | 2 | 0.0h |
@@ -56,17 +56,17 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 | gpt-5.5 | 17 | 45K | 1K | 303K | 0 | 86.9% | 2 | 0.0h |
 | claude-sonnet-4-6 | 6 | 10 | 1K | 121K | 62K | 66.1% | 2 | 0.0h |
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **1,225,422** | **1,869.7M** | **529.2M** | **285,850.6M** | **11,701.2M** | **95.5%** | **2,494** | **6,109.2h** |
+| **Total** | **1,237,051** | **1,868.6M** | **534.0M** | **287,781.6M** | **11,814.9M** | **95.5%** | **2,493** | **6,175.1h** |
 
-_299,950.8M total tokens processed. 95.5% cache hit rate._
+_301,999.2M total tokens processed. 95.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 615,815 | 15.3M | 331.2M | 174,980.5M | 9,830.6M | 94.7% | 177 | 3,943.6h |
+| claude-opus-5-5 | 627,816 | 15.7M | 336.1M | 176,985.6M | 9,948.6M | 94.7% | 178 | 4,012.0h |
 | gpt-6.1-sol | 526,470 | 2,036.8M | 124.5M | 95,769.8M | 0 | 97.9% | 491 | 1,555.7h |
-| claude-sonnet-5-5 | 234,796 | 3.8M | 140.3M | 57,264.6M | 3,402.4M | 94.4% | 1,008 | 1,473.4h |
+| claude-sonnet-5-5 | 234,799 | 3.8M | 140.3M | 57,264.6M | 3,402.4M | 94.4% | 1,011 | 1,473.4h |
 | gpt-5.6-sol | 196,015 | 889.2M | 41.9M | 25,304.7M | 0 | 96.6% | 1,757 | 1,173.4h |
 | gpt-5.6-terra | 68,042 | 576.7M | 16.0M | 5,616.9M | 0 | 90.7% | 6,762 | 360.0h |
 | gpt-5.5 | 37,656 | 170.4M | 8.9M | 2,437.5M | 0 | 93.5% | 1,415 | 165.1h |
@@ -87,9 +87,9 @@ _299,950.8M total tokens processed. 95.5% cache hit rate._
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
 | gpt-5.4-mini | 5 | 65K | 270 | 0 | 0 | 0.0% | 5 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **1,720,654** | **3,881.5M** | **672.9M** | **368,134.4M** | **13,256.2M** | **95.6%** | **15,652** | **8,888.1h** |
+| **Total** | **1,732,658** | **3,881.9M** | **677.8M** | **370,139.6M** | **13,374.2M** | **95.5%** | **15,656** | **8,956.4h** |
 
-_385,945.2M total tokens processed. 95.6% cache hit rate._
+_388,073.7M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -226,7 +226,7 @@ _385,945.2M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-20 06:43 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-20 07:44 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

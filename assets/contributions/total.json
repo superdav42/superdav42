@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "superdav42",
-  "updated": "2026-11-20",
-  "through": "2026-11-19",
+  "updated": "2026-11-21",
+  "through": "2026-11-20",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 36540,
+  "total": 33374,
   "months": [
     {
       "month": "2012-03",
@@ -768,128 +768,128 @@
     },
     {
       "month": "2024-11",
-      "total": 52,
-      "cumulative": 5293
+      "total": 46,
+      "cumulative": 5287
     },
     {
       "month": "2024-12",
-      "total": 149,
-      "cumulative": 5442
+      "total": 99,
+      "cumulative": 5386
     },
     {
       "month": "2025-01",
-      "total": 119,
-      "cumulative": 5561
+      "total": 95,
+      "cumulative": 5481
     },
     {
       "month": "2025-02",
-      "total": 213,
-      "cumulative": 5774
+      "total": 131,
+      "cumulative": 5612
     },
     {
       "month": "2025-03",
       "total": 63,
-      "cumulative": 5837
+      "cumulative": 5675
     },
     {
       "month": "2025-04",
-      "total": 164,
-      "cumulative": 6001
+      "total": 122,
+      "cumulative": 5797
     },
     {
       "month": "2025-05",
-      "total": 98,
-      "cumulative": 6099
+      "total": 72,
+      "cumulative": 5869
     },
     {
       "month": "2025-06",
-      "total": 139,
-      "cumulative": 6238
+      "total": 85,
+      "cumulative": 5954
     },
     {
       "month": "2025-07",
-      "total": 321,
-      "cumulative": 6559
+      "total": 181,
+      "cumulative": 6135
     },
     {
       "month": "2025-08",
-      "total": 230,
-      "cumulative": 6789
+      "total": 148,
+      "cumulative": 6283
     },
     {
       "month": "2025-09",
-      "total": 202,
-      "cumulative": 6991
+      "total": 140,
+      "cumulative": 6423
     },
     {
       "month": "2025-10",
-      "total": 133,
-      "cumulative": 7124
+      "total": 71,
+      "cumulative": 6494
     },
     {
       "month": "2025-11",
-      "total": 127,
-      "cumulative": 7251
+      "total": 89,
+      "cumulative": 6583
     },
     {
       "month": "2025-12",
-      "total": 180,
-      "cumulative": 7431
+      "total": 140,
+      "cumulative": 6723
     },
     {
       "month": "2026-01",
-      "total": 167,
-      "cumulative": 7598
+      "total": 131,
+      "cumulative": 6854
     },
     {
       "month": "2026-02",
-      "total": 571,
-      "cumulative": 8169
+      "total": 347,
+      "cumulative": 7201
     },
     {
       "month": "2026-03",
-      "total": 3111,
-      "cumulative": 11280
+      "total": 2529,
+      "cumulative": 9730
     },
     {
       "month": "2026-04",
-      "total": 5051,
-      "cumulative": 16331
+      "total": 4571,
+      "cumulative": 14301
     },
     {
       "month": "2026-05",
-      "total": 4522,
-      "cumulative": 20853
+      "total": 4164,
+      "cumulative": 18465
     },
     {
       "month": "2026-06",
-      "total": 2518,
-      "cumulative": 23371
+      "total": 2184,
+      "cumulative": 20649
     },
     {
       "month": "2026-07",
-      "total": 2050,
-      "cumulative": 25421
+      "total": 1934,
+      "cumulative": 22583
     },
     {
       "month": "2026-08",
-      "total": 2964,
-      "cumulative": 28385
+      "total": 2896,
+      "cumulative": 25479
     },
     {
       "month": "2026-09",
-      "total": 3077,
-      "cumulative": 31462
+      "total": 2933,
+      "cumulative": 28412
     },
     {
       "month": "2026-10",
-      "total": 3289,
-      "cumulative": 34751
+      "total": 3075,
+      "cumulative": 31487
     },
     {
       "month": "2026-11",
-      "total": 1789,
-      "cumulative": 36540
+      "total": 1887,
+      "cumulative": 33374
     }
   ]
 }

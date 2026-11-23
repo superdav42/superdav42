@@ -26,7 +26,7 @@
 | Worker/headless AI generation | 14.1h | 90.2h | 377.8h | 1036.7h |
 | Additive observed work | 14.1h | 90.3h | 397.5h | 2,894.7h |
 | Interactive sessions | 2 | 14 | 72 | 3,507 |
-| Worker sessions | 115 | 645 | 2,616 | 13,040 |
+| Worker sessions | 116 | 646 | 2,617 | 13,041 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (17.6 of 28 days sampled); earlier days are not counted. Latest sample measured: desktop input. *365-day estimate uses observed calendar coverage._
 
@@ -40,7 +40,7 @@ _AI session 365-day totals cover 136 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 545,222 | 15.2M | 300.9M | 149,364.2M | 8,854.4M | 94.4% | 129 | 3,633.3h |
+| claude-opus-5-5 | 545,131 | 15.2M | 300.8M | 149,348.4M | 8,853.8M | 94.4% | 129 | 3,631.2h |
 | gpt-6.1-sol | 415,831 | 1,656.2M | 98.3M | 74,980.0M | 0 | 97.8% | 264 | 1,109.5h |
 | claude-sonnet-5-5 | 268,300 | 6.1M | 159.2M | 76,247.0M | 3,802.2M | 95.2% | 1,161 | 1,697.3h |
 | gpt-5.6-sol | 10,569 | 31.7M | 1.8M | 1,114.2M | 0 | 97.2% | 816 | 55.4h |
@@ -49,16 +49,16 @@ _AI session 365-day totals cover 136 days of local assistant session history (no
 | gpt-6.1-terra | 2,866 | 7.0M | 383K | 270.3M | 0 | 97.4% | 4 | 8.4h |
 | claude-fable-5-1 | 1,565 | 3K | 1.3M | 384.1M | 22.3M | 94.5% | 1 | 9.7h |
 | gpt-6-luna | 104 | 868K | 624 | 858K | 0 | 49.7% | 1 | 0.0h |
-| gpt-5.6-terra | 86 | 1.1M | 2K | 334K | 0 | 22.0% | 86 | 0.1h |
+| gpt-5.6-terra | 83 | 1.1M | 2K | 334K | 0 | 22.8% | 83 | 0.1h |
 | qwen3.5:9b | 75 | 1.3M | 6K | 223K | 0 | 14.4% | 2 | 0.4h |
 | qwen3.5-9b | 29 | 251K | 2K | 324K | 0 | 56.3% | 2 | 0.0h |
 | claude-haiku-4-5 | 20 | 60 | 84 | 106K | 334K | 24.2% | 13 | 0.0h |
 | gpt-5.5 | 17 | 45K | 1K | 303K | 0 | 86.9% | 2 | 0.0h |
 | claude-sonnet-4-6 | 6 | 10 | 1K | 121K | 62K | 66.1% | 2 | 0.0h |
 | qwen2.5-coder-7b | 6 | 102K | 102 | 18 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **1,258,560** | **1,767.7M** | **565.2M** | **303,527.3M** | **12,679.4M** | **95.5%** | **2,465** | **6,612.8h** |
+| **Total** | **1,258,466** | **1,767.6M** | **565.2M** | **303,511.5M** | **12,678.7M** | **95.5%** | **2,462** | **6,610.7h** |
 
-_318,539.7M total tokens processed. 95.5% cache hit rate._
+_318,523.2M total tokens processed. 95.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -226,7 +226,7 @@ _424,936.5M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-23 03:44 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-23 04:44 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

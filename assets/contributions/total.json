@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "superdav42",
-  "updated": "2026-11-25",
-  "through": "2026-11-24",
+  "updated": "2026-11-26",
+  "through": "2026-11-25",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 33704,
+  "total": 33839,
   "months": [
     {
       "month": "2012-03",
@@ -888,8 +888,8 @@
     },
     {
       "month": "2026-11",
-      "total": 2217,
-      "cumulative": 33704
+      "total": 2352,
+      "cumulative": 33839
     }
   ]
 }
